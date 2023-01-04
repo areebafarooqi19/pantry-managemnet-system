@@ -1,0 +1,1133 @@
+2022-10-28T03:10:12.044632599 0.017001s notice: Recursively removing directory /home/dna-dev/rethinkdb_data/tmp
+2022-10-28T03:10:12.047645895 0.020014s notice: Initializing directory /home/dna-dev/rethinkdb_data
+2022-10-28T03:10:12.047744089 0.020112s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/dna-dev/rethinkdb_data' did not already exist or is empty.)
+2022-10-28T03:10:12.047794925 0.020163s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-10-28T03:10:12.049528740 0.021897s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-10-28T03:10:12.049552886 0.021921s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-10-28T03:10:12.056886056 0.029254s info: Automatically using cache size of 5480 MB
+2022-10-28T03:10:12.057115612 0.029483s notice: Listening for intracluster connections on port 29015
+2022-10-28T03:10:12.058498359 0.030866s notice: Listening for client driver connections on port 28015
+2022-10-28T03:10:12.058521652 0.030889s notice: Listening for administrative HTTP connections on port 8080
+2022-10-28T03:10:12.058522743 0.030890s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-10-28T03:10:12.058523626 0.030891s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-10-28T03:10:12.058526200 0.030894s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-10-28T03:10:12.058528487 0.030896s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-10-28T03:10:12.058530793 0.030898s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-10-28T03:11:54.761886240 102.734254s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 1.
+2022-10-28T03:11:54.762046150 102.734414s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Added replica on this server.
+2022-10-28T03:11:54.763101886 102.735470s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 1. Latest log index is 0.
+2022-10-28T03:30:58.909756309 1242.761043s warn: Received invalid clustering header from 127.0.0.1:39152, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.909907072 1242.761193s warn: Received invalid clustering header from 127.0.0.1:39164, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.909980309 1242.761267s warn: Received invalid clustering header from 127.0.0.1:39174, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910034199 1242.761321s warn: Received invalid clustering header from 127.0.0.1:39182, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910081536 1242.761368s warn: Received invalid clustering header from 127.0.0.1:39192, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910130479 1242.761417s warn: Received invalid clustering header from 127.0.0.1:39204, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910180974 1242.761467s warn: Received invalid clustering header from 127.0.0.1:39212, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910245875 1242.761532s warn: Received invalid clustering header from 127.0.0.1:39224, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910285454 1242.761572s warn: Received invalid clustering header from 127.0.0.1:39236, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910337625 1242.761624s warn: Received invalid clustering header from 127.0.0.1:39248, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910389081 1242.761675s warn: Received invalid clustering header from 127.0.0.1:39256, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910438313 1242.761725s warn: Received invalid clustering header from 127.0.0.1:39268, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910485973 1242.761772s warn: Received invalid clustering header from 127.0.0.1:39274, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910536370 1242.761823s warn: Received invalid clustering header from 127.0.0.1:39290, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910586427 1242.761873s warn: Received invalid clustering header from 127.0.0.1:39306, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910623353 1242.761910s warn: Received invalid clustering header from 127.0.0.1:39308, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910658166 1242.761945s warn: Received invalid clustering header from 127.0.0.1:39324, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910692513 1242.761979s warn: Received invalid clustering header from 127.0.0.1:39338, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910725563 1242.762012s warn: Received invalid clustering header from 127.0.0.1:39340, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910765569 1242.762052s warn: Received invalid clustering header from 127.0.0.1:39348, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910857429 1242.762144s warn: Received invalid clustering header from 127.0.0.1:39360, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910872582 1242.762159s warn: Received invalid clustering header from 127.0.0.1:39366, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910890410 1242.762177s warn: Received invalid clustering header from 127.0.0.1:39376, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910945060 1242.762231s warn: Received invalid clustering header from 127.0.0.1:39384, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.910995996 1242.762282s warn: Received invalid clustering header from 127.0.0.1:39388, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911043371 1242.762330s warn: Received invalid clustering header from 127.0.0.1:39390, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911090850 1242.762377s warn: Received invalid clustering header from 127.0.0.1:39398, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911140441 1242.762427s warn: Received invalid clustering header from 127.0.0.1:39400, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911188693 1242.762475s warn: Received invalid clustering header from 127.0.0.1:39408, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911245356 1242.762532s warn: Received invalid clustering header from 127.0.0.1:39412, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911294634 1242.762581s warn: Received invalid clustering header from 127.0.0.1:39426, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911342114 1242.762628s warn: Received invalid clustering header from 127.0.0.1:39440, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911395679 1242.762682s warn: Received invalid clustering header from 127.0.0.1:39446, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911447146 1242.762734s warn: Received invalid clustering header from 127.0.0.1:39448, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911498540 1242.762785s warn: Received invalid clustering header from 127.0.0.1:39464, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911543687 1242.762830s warn: Received invalid clustering header from 127.0.0.1:39472, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911594002 1242.762880s warn: Received invalid clustering header from 127.0.0.1:39474, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911643269 1242.762930s warn: Received invalid clustering header from 127.0.0.1:39478, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911691568 1242.762978s warn: Received invalid clustering header from 127.0.0.1:39486, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911739076 1242.763025s warn: Received invalid clustering header from 127.0.0.1:39490, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911787112 1242.763073s warn: Received invalid clustering header from 127.0.0.1:39498, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911837328 1242.763124s warn: Received invalid clustering header from 127.0.0.1:39514, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911887080 1242.763173s warn: Received invalid clustering header from 127.0.0.1:39522, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911949157 1242.763236s warn: Received invalid clustering header from 127.0.0.1:39528, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.911998088 1242.763284s warn: Received invalid clustering header from 127.0.0.1:39544, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.912049695 1242.763336s warn: Received invalid clustering header from 127.0.0.1:39560, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.912104603 1242.763391s warn: Received invalid clustering header from 127.0.0.1:39564, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.912153665 1242.763440s warn: Received invalid clustering header from 127.0.0.1:39572, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.912201857 1242.763488s warn: Received invalid clustering header from 127.0.0.1:39582, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:30:58.912269521 1242.763556s warn: Received invalid clustering header from 127.0.0.1:39586, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:31:00.932447649 1244.783735s warn: Received invalid clustering header from 127.0.0.1:39596, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:31:04.938653533 1248.789940s warn: Received invalid clustering header from 127.0.0.1:35098, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:31:12.944988191 1256.796275s warn: Received invalid clustering header from 127.0.0.1:41262, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:31:28.961499500 1272.812786s warn: Received invalid clustering header from 127.0.0.1:45380, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.364993290 1310.216280s warn: Received invalid clustering header from 127.0.0.1:38966, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365103390 1310.216390s warn: Received invalid clustering header from 127.0.0.1:38972, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365170582 1310.216457s warn: Received invalid clustering header from 127.0.0.1:38978, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365214480 1310.216501s warn: Received invalid clustering header from 127.0.0.1:38980, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365258222 1310.216545s warn: Received invalid clustering header from 127.0.0.1:38982, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365298193 1310.216585s warn: Received invalid clustering header from 127.0.0.1:38986, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365341003 1310.216627s warn: Received invalid clustering header from 127.0.0.1:39000, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365380936 1310.216667s warn: Received invalid clustering header from 127.0.0.1:39010, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365423434 1310.216710s warn: Received invalid clustering header from 127.0.0.1:39026, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365464200 1310.216751s warn: Received invalid clustering header from 127.0.0.1:39028, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365504883 1310.216791s warn: Received invalid clustering header from 127.0.0.1:39032, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365545305 1310.216832s warn: Received invalid clustering header from 127.0.0.1:39044, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365586613 1310.216873s warn: Received invalid clustering header from 127.0.0.1:39054, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365626470 1310.216913s warn: Received invalid clustering header from 127.0.0.1:39056, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365668230 1310.216955s warn: Received invalid clustering header from 127.0.0.1:39066, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365707923 1310.216994s warn: Received invalid clustering header from 127.0.0.1:39076, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365749156 1310.217035s warn: Received invalid clustering header from 127.0.0.1:39088, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365788971 1310.217075s warn: Received invalid clustering header from 127.0.0.1:39098, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365830215 1310.217117s warn: Received invalid clustering header from 127.0.0.1:39104, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365870183 1310.217157s warn: Received invalid clustering header from 127.0.0.1:39110, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365915382 1310.217202s warn: Received invalid clustering header from 127.0.0.1:39120, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365952688 1310.217239s warn: Received invalid clustering header from 127.0.0.1:39134, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.365992714 1310.217279s warn: Received invalid clustering header from 127.0.0.1:39146, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366032122 1310.217318s warn: Received invalid clustering header from 127.0.0.1:39156, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366073373 1310.217360s warn: Received invalid clustering header from 127.0.0.1:39158, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366113082 1310.217399s warn: Received invalid clustering header from 127.0.0.1:39170, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366153655 1310.217440s warn: Received invalid clustering header from 127.0.0.1:39186, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366194012 1310.217480s warn: Received invalid clustering header from 127.0.0.1:39188, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366233967 1310.217520s warn: Received invalid clustering header from 127.0.0.1:39202, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366276060 1310.217562s warn: Received invalid clustering header from 127.0.0.1:39204, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366318471 1310.217605s warn: Received invalid clustering header from 127.0.0.1:39216, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366356623 1310.217643s warn: Received invalid clustering header from 127.0.0.1:39232, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366397962 1310.217684s warn: Received invalid clustering header from 127.0.0.1:39244, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366437514 1310.217724s warn: Received invalid clustering header from 127.0.0.1:39252, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366478715 1310.217765s warn: Received invalid clustering header from 127.0.0.1:39258, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366518170 1310.217805s warn: Received invalid clustering header from 127.0.0.1:39266, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366558338 1310.217845s warn: Received invalid clustering header from 127.0.0.1:39270, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366600183 1310.217887s warn: Received invalid clustering header from 127.0.0.1:39286, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366640866 1310.217927s warn: Received invalid clustering header from 127.0.0.1:39296, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366681446 1310.217968s warn: Received invalid clustering header from 127.0.0.1:39310, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366722185 1310.218009s warn: Received invalid clustering header from 127.0.0.1:39326, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366761527 1310.218048s warn: Received invalid clustering header from 127.0.0.1:39334, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366802350 1310.218089s warn: Received invalid clustering header from 127.0.0.1:39346, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366842685 1310.218129s warn: Received invalid clustering header from 127.0.0.1:39348, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366881067 1310.218167s warn: Received invalid clustering header from 127.0.0.1:39356, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366920994 1310.218207s warn: Received invalid clustering header from 127.0.0.1:39366, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.366963746 1310.218250s warn: Received invalid clustering header from 127.0.0.1:39372, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.367004195 1310.218291s warn: Received invalid clustering header from 127.0.0.1:39376, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.367043741 1310.218330s warn: Received invalid clustering header from 127.0.0.1:39384, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:06.367084621 1310.218371s warn: Received invalid clustering header from 127.0.0.1:39398, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:08.387622344 1312.238909s warn: Received invalid clustering header from 127.0.0.1:39408, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:12.394096492 1316.245383s warn: Received invalid clustering header from 127.0.0.1:57594, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:20.402512970 1324.253800s warn: Received invalid clustering header from 127.0.0.1:57608, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:32:36.421551187 1340.272838s warn: Received invalid clustering header from 127.0.0.1:59268, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:33:08.457390362 1372.308677s warn: Received invalid clustering header from 127.0.0.1:34298, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:34:12.524518375 1436.375805s warn: Received invalid clustering header from 127.0.0.1:57656, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:16.588911253 1500.440198s warn: Received invalid clustering header from 127.0.0.1:34632, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633417543 1538.484704s warn: Received invalid clustering header from 127.0.0.1:41256, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633550646 1538.484837s warn: Received invalid clustering header from 127.0.0.1:41268, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633585504 1538.484872s warn: Received invalid clustering header from 127.0.0.1:41280, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633619007 1538.484905s warn: Received invalid clustering header from 127.0.0.1:41290, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633653497 1538.484940s warn: Received invalid clustering header from 127.0.0.1:41304, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633689518 1538.484976s warn: Received invalid clustering header from 127.0.0.1:41314, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633744291 1538.485031s warn: Received invalid clustering header from 127.0.0.1:41330, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633787916 1538.485074s warn: Received invalid clustering header from 127.0.0.1:41342, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633830977 1538.485117s warn: Received invalid clustering header from 127.0.0.1:41358, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633868631 1538.485155s warn: Received invalid clustering header from 127.0.0.1:41362, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633903372 1538.485190s warn: Received invalid clustering header from 127.0.0.1:41372, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633936889 1538.485223s warn: Received invalid clustering header from 127.0.0.1:41382, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.633972009 1538.485258s warn: Received invalid clustering header from 127.0.0.1:41398, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634013923 1538.485300s warn: Received invalid clustering header from 127.0.0.1:41404, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634041838 1538.485328s warn: Received invalid clustering header from 127.0.0.1:41412, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634080592 1538.485367s warn: Received invalid clustering header from 127.0.0.1:41420, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634115570 1538.485402s warn: Received invalid clustering header from 127.0.0.1:41424, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634152437 1538.485439s warn: Received invalid clustering header from 127.0.0.1:41426, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634192362 1538.485479s warn: Received invalid clustering header from 127.0.0.1:41432, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634225380 1538.485512s warn: Received invalid clustering header from 127.0.0.1:41444, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634267217 1538.485554s warn: Received invalid clustering header from 127.0.0.1:41450, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634302109 1538.485588s warn: Received invalid clustering header from 127.0.0.1:41460, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634340853 1538.485627s warn: Received invalid clustering header from 127.0.0.1:41474, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634377300 1538.485664s warn: Received invalid clustering header from 127.0.0.1:41488, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634424265 1538.485711s warn: Received invalid clustering header from 127.0.0.1:41500, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634460518 1538.485747s warn: Received invalid clustering header from 127.0.0.1:41502, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634503876 1538.485790s warn: Received invalid clustering header from 127.0.0.1:41514, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634539633 1538.485826s warn: Received invalid clustering header from 127.0.0.1:41520, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634578388 1538.485865s warn: Received invalid clustering header from 127.0.0.1:41522, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634613992 1538.485900s warn: Received invalid clustering header from 127.0.0.1:41532, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634657001 1538.485943s warn: Received invalid clustering header from 127.0.0.1:41548, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634703165 1538.485990s warn: Received invalid clustering header from 127.0.0.1:41564, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634741496 1538.486028s warn: Received invalid clustering header from 127.0.0.1:41572, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634782428 1538.486069s warn: Received invalid clustering header from 127.0.0.1:41574, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634826749 1538.486113s warn: Received invalid clustering header from 127.0.0.1:41576, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634864979 1538.486151s warn: Received invalid clustering header from 127.0.0.1:41582, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634907493 1538.486194s warn: Received invalid clustering header from 127.0.0.1:41596, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634949736 1538.486236s warn: Received invalid clustering header from 127.0.0.1:41606, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.634991907 1538.486278s warn: Received invalid clustering header from 127.0.0.1:41610, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635031343 1538.486318s warn: Received invalid clustering header from 127.0.0.1:41618, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635078305 1538.486365s warn: Received invalid clustering header from 127.0.0.1:41630, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635115786 1538.486402s warn: Received invalid clustering header from 127.0.0.1:41640, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635159099 1538.486445s warn: Received invalid clustering header from 127.0.0.1:41652, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635202176 1538.486489s warn: Received invalid clustering header from 127.0.0.1:41666, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635243098 1538.486529s warn: Received invalid clustering header from 127.0.0.1:41668, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635283544 1538.486570s warn: Received invalid clustering header from 127.0.0.1:41676, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635327038 1538.486613s warn: Received invalid clustering header from 127.0.0.1:41684, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635366278 1538.486653s warn: Received invalid clustering header from 127.0.0.1:41690, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635408641 1538.486695s warn: Received invalid clustering header from 127.0.0.1:41698, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:54.635450637 1538.486737s warn: Received invalid clustering header from 127.0.0.1:41700, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:35:56.653551337 1540.504838s warn: Received invalid clustering header from 127.0.0.1:41714, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:36:00.660047946 1544.511335s warn: Received invalid clustering header from 127.0.0.1:41724, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:36:08.666623374 1552.517910s warn: Received invalid clustering header from 127.0.0.1:33608, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:36:24.687551363 1568.538838s warn: Received invalid clustering header from 127.0.0.1:37266, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:36:56.723412316 1600.574699s warn: Received invalid clustering header from 127.0.0.1:58830, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421466743 1642.272753s warn: Received invalid clustering header from 127.0.0.1:44982, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421653038 1642.272939s warn: Received invalid clustering header from 127.0.0.1:44998, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421701427 1642.272988s warn: Received invalid clustering header from 127.0.0.1:45004, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421753408 1642.273040s warn: Received invalid clustering header from 127.0.0.1:45018, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421803890 1642.273090s warn: Received invalid clustering header from 127.0.0.1:45030, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421851163 1642.273138s warn: Received invalid clustering header from 127.0.0.1:45034, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421899258 1642.273186s warn: Received invalid clustering header from 127.0.0.1:45048, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421946487 1642.273233s warn: Received invalid clustering header from 127.0.0.1:45060, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.421995425 1642.273282s warn: Received invalid clustering header from 127.0.0.1:45068, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422042610 1642.273329s warn: Received invalid clustering header from 127.0.0.1:45084, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422090953 1642.273377s warn: Received invalid clustering header from 127.0.0.1:45098, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422139436 1642.273426s warn: Received invalid clustering header from 127.0.0.1:45106, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422186496 1642.273473s warn: Received invalid clustering header from 127.0.0.1:45112, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422234047 1642.273520s warn: Received invalid clustering header from 127.0.0.1:45116, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422284435 1642.273571s warn: Received invalid clustering header from 127.0.0.1:45128, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422330003 1642.273616s warn: Received invalid clustering header from 127.0.0.1:45130, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422377661 1642.273664s warn: Received invalid clustering header from 127.0.0.1:45136, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422426890 1642.273713s warn: Received invalid clustering header from 127.0.0.1:45140, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422474667 1642.273761s warn: Received invalid clustering header from 127.0.0.1:45156, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422522349 1642.273809s warn: Received invalid clustering header from 127.0.0.1:45168, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422575771 1642.273862s warn: Received invalid clustering header from 127.0.0.1:45176, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422618726 1642.273905s warn: Received invalid clustering header from 127.0.0.1:45178, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422666816 1642.273953s warn: Received invalid clustering header from 127.0.0.1:45186, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422714139 1642.274000s warn: Received invalid clustering header from 127.0.0.1:45188, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422763054 1642.274049s warn: Received invalid clustering header from 127.0.0.1:45196, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422810902 1642.274097s warn: Received invalid clustering header from 127.0.0.1:45202, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422859712 1642.274146s warn: Received invalid clustering header from 127.0.0.1:45208, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422909311 1642.274196s warn: Received invalid clustering header from 127.0.0.1:45224, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.422957444 1642.274244s warn: Received invalid clustering header from 127.0.0.1:45228, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423006027 1642.274292s warn: Received invalid clustering header from 127.0.0.1:45244, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423059313 1642.274346s warn: Received invalid clustering header from 127.0.0.1:45248, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423118944 1642.274405s warn: Received invalid clustering header from 127.0.0.1:45262, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423157868 1642.274444s warn: Received invalid clustering header from 127.0.0.1:45266, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423200530 1642.274487s warn: Received invalid clustering header from 127.0.0.1:45268, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423246426 1642.274533s warn: Received invalid clustering header from 127.0.0.1:45272, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423292469 1642.274579s warn: Received invalid clustering header from 127.0.0.1:45282, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423341109 1642.274627s warn: Received invalid clustering header from 127.0.0.1:45298, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423387816 1642.274674s warn: Received invalid clustering header from 127.0.0.1:45312, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423434570 1642.274721s warn: Received invalid clustering header from 127.0.0.1:45326, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423482947 1642.274769s warn: Received invalid clustering header from 127.0.0.1:45338, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423535917 1642.274822s warn: Received invalid clustering header from 127.0.0.1:45354, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423582006 1642.274868s warn: Received invalid clustering header from 127.0.0.1:45368, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423629930 1642.274916s warn: Received invalid clustering header from 127.0.0.1:45378, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423676996 1642.274963s warn: Received invalid clustering header from 127.0.0.1:45380, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423727459 1642.275014s warn: Received invalid clustering header from 127.0.0.1:45396, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423775661 1642.275062s warn: Received invalid clustering header from 127.0.0.1:45400, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423823261 1642.275110s warn: Received invalid clustering header from 127.0.0.1:45408, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423874605 1642.275161s warn: Received invalid clustering header from 127.0.0.1:45416, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423930747 1642.275217s warn: Received invalid clustering header from 127.0.0.1:45430, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:38.423980599 1642.275267s warn: Received invalid clustering header from 127.0.0.1:45440, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:40.445433497 1644.296720s warn: Received invalid clustering header from 127.0.0.1:45446, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:44.452748379 1648.304035s warn: Received invalid clustering header from 127.0.0.1:36046, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:37:52.460556427 1656.311843s warn: Received invalid clustering header from 127.0.0.1:36892, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:08.477097241 1672.328385s warn: Received invalid clustering header from 127.0.0.1:49740, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:40.509381008 1704.360668s warn: Received invalid clustering header from 127.0.0.1:48984, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811596391 1716.662883s warn: Received invalid clustering header from 127.0.0.1:43618, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811746548 1716.663033s warn: Received invalid clustering header from 127.0.0.1:43624, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811790135 1716.663076s warn: Received invalid clustering header from 127.0.0.1:43638, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811848884 1716.663135s warn: Received invalid clustering header from 127.0.0.1:43640, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811905133 1716.663191s warn: Received invalid clustering header from 127.0.0.1:43648, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.811997685 1716.663284s warn: Received invalid clustering header from 127.0.0.1:43652, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812049654 1716.663336s warn: Received invalid clustering header from 127.0.0.1:43666, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812091226 1716.663378s warn: Received invalid clustering header from 127.0.0.1:43674, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812142569 1716.663429s warn: Received invalid clustering header from 127.0.0.1:43676, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812202172 1716.663489s warn: Received invalid clustering header from 127.0.0.1:43680, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812256935 1716.663543s warn: Received invalid clustering header from 127.0.0.1:43692, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812301583 1716.663588s warn: Received invalid clustering header from 127.0.0.1:43704, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812340730 1716.663627s warn: Received invalid clustering header from 127.0.0.1:43706, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812393461 1716.663680s warn: Received invalid clustering header from 127.0.0.1:43720, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812446832 1716.663733s warn: Received invalid clustering header from 127.0.0.1:43722, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812500421 1716.663787s warn: Received invalid clustering header from 127.0.0.1:43734, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812556278 1716.663843s warn: Received invalid clustering header from 127.0.0.1:43748, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812610948 1716.663897s warn: Received invalid clustering header from 127.0.0.1:43758, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812662574 1716.663949s warn: Received invalid clustering header from 127.0.0.1:43760, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812722421 1716.664009s warn: Received invalid clustering header from 127.0.0.1:43764, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812770235 1716.664057s warn: Received invalid clustering header from 127.0.0.1:43766, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812827788 1716.664114s warn: Received invalid clustering header from 127.0.0.1:43782, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812875875 1716.664162s warn: Received invalid clustering header from 127.0.0.1:43788, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812928247 1716.664215s warn: Received invalid clustering header from 127.0.0.1:43790, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.812979272 1716.664266s warn: Received invalid clustering header from 127.0.0.1:43798, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813034564 1716.664321s warn: Received invalid clustering header from 127.0.0.1:43812, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813086301 1716.664373s warn: Received invalid clustering header from 127.0.0.1:43818, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813136747 1716.664423s warn: Received invalid clustering header from 127.0.0.1:43828, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813191205 1716.664478s warn: Received invalid clustering header from 127.0.0.1:43844, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813251390 1716.664538s warn: Received invalid clustering header from 127.0.0.1:43852, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813300936 1716.664587s warn: Received invalid clustering header from 127.0.0.1:43860, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813351388 1716.664638s warn: Received invalid clustering header from 127.0.0.1:43874, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813419487 1716.664706s warn: Received invalid clustering header from 127.0.0.1:43888, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813477277 1716.664764s warn: Received invalid clustering header from 127.0.0.1:43898, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813529571 1716.664816s warn: Received invalid clustering header from 127.0.0.1:43910, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813581534 1716.664868s warn: Received invalid clustering header from 127.0.0.1:43922, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813639714 1716.664926s warn: Received invalid clustering header from 127.0.0.1:43936, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813695611 1716.664982s warn: Received invalid clustering header from 127.0.0.1:43952, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813747971 1716.665034s warn: Received invalid clustering header from 127.0.0.1:43960, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813799844 1716.665086s warn: Received invalid clustering header from 127.0.0.1:43966, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813851152 1716.665138s warn: Received invalid clustering header from 127.0.0.1:43970, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813905668 1716.665192s warn: Received invalid clustering header from 127.0.0.1:43986, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.813959559 1716.665246s warn: Received invalid clustering header from 127.0.0.1:44002, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814013435 1716.665300s warn: Received invalid clustering header from 127.0.0.1:44012, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814072358 1716.665359s warn: Received invalid clustering header from 127.0.0.1:44028, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814120121 1716.665406s warn: Received invalid clustering header from 127.0.0.1:44034, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814177110 1716.665464s warn: Received invalid clustering header from 127.0.0.1:44036, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814228589 1716.665515s warn: Received invalid clustering header from 127.0.0.1:44050, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814277746 1716.665564s warn: Received invalid clustering header from 127.0.0.1:44062, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:52.814335725 1716.665622s warn: Received invalid clustering header from 127.0.0.1:44078, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:54.833576361 1718.684863s warn: Received invalid clustering header from 127.0.0.1:44092, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:38:58.836477007 1722.687764s warn: Received invalid clustering header from 127.0.0.1:44096, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:39:06.842844901 1730.694132s warn: Received invalid clustering header from 127.0.0.1:47710, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:39:22.862075785 1746.713363s warn: Received invalid clustering header from 127.0.0.1:58250, closing connection -- something might be connecting to the wrong port.
+2022-10-28T03:39:54.898543232 1778.749830s warn: Received invalid clustering header from 127.0.0.1:48552, closing connection -- something might be connecting to the wrong port.
+2022-10-28T04:08:19.480261214 3483.331548s warn: Received invalid clustering header from [::1]:43422, closing connection -- something might be connecting to the wrong port.
+2022-10-28T04:08:19.480565392 3483.331852s warn: Received invalid clustering header from [::1]:43432, closing connection -- something might be connecting to the wrong port.
+2022-10-28T04:09:32.574088368 3556.425375s notice: Someone asked for the nonwhitelisted file "/customUser".  If this should be accessible, add it to the static web assets.
+2022-11-17T10:23:48.816827299 0.014370s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-17T10:23:48.818405051 0.015948s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-17T10:23:48.818423912 0.015967s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-17T10:23:48.825085955 0.022629s info: Automatically using cache size of 2137 MB
+2022-11-17T10:23:48.826514392 0.024057s notice: Listening for intracluster connections on port 29015
+2022-11-17T10:23:48.837175645 0.034718s notice: Listening for client driver connections on port 28015
+2022-11-17T10:23:48.837204169 0.034747s notice: Listening for administrative HTTP connections on port 8080
+2022-11-17T10:23:48.837205097 0.034748s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-17T10:23:48.837207868 0.034750s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-17T10:23:48.837210476 0.034753s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-17T10:23:48.837213340 0.034756s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-17T10:23:48.837215923 0.034759s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-17T10:23:49.956563753 1.154107s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 2.
+2022-11-17T10:23:49.967760779 1.165304s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 2. Latest log index is 2.
+2022-11-17T10:24:28.127417895 39.324961s warn: Received invalid clustering header from [::1]:38448, closing connection -- something might be connecting to the wrong port.
+2022-11-17T10:24:29.150983420 40.348526s warn: Received invalid clustering header from [::1]:38456, closing connection -- something might be connecting to the wrong port.
+2022-11-17T10:24:34.160891293 45.358434s warn: Received invalid clustering header from [::1]:38470, closing connection -- something might be connecting to the wrong port.
+2022-11-17T10:25:58.438730714 129.636274s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 1.
+2022-11-17T10:25:58.438863431 129.636406s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Added replica on this server.
+2022-11-17T10:25:58.440462272 129.638005s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 1. Latest log index is 0.
+2022-11-17T14:14:34.352824608 13845.550367s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 1.
+2022-11-17T14:14:34.352959105 13845.550502s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Added replica on this server.
+2022-11-17T14:14:34.354160833 13845.551703s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 1. Latest log index is 0.
+2022-11-17T14:19:07.373673928 14118.571217s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-17T14:19:07.373869520 14118.571412s notice: Shutting down client connections...
+2022-11-17T14:19:07.376583019 14118.574126s notice: All client connections closed.
+2022-11-17T14:19:07.376600785 14118.574144s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-17T14:19:07.389127316 14118.586670s notice: Storage engine shut down.
+2022-11-17T14:20:24.439936147 0.010285s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-17T14:20:24.440918489 0.011268s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-17T14:20:24.440934941 0.011284s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-17T14:20:24.444843982 0.015193s info: Automatically using cache size of 2257 MB
+2022-11-17T14:20:24.445063891 0.015413s notice: Listening for intracluster connections on port 29015
+2022-11-17T14:20:24.459364131 0.029713s notice: Listening for client driver connections on port 28015
+2022-11-17T14:20:24.459385210 0.029734s notice: Listening for administrative HTTP connections on port 8080
+2022-11-17T14:20:24.459385412 0.029734s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-17T14:20:24.459388201 0.029737s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-17T14:20:24.459398520 0.029747s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-17T14:20:24.459401376 0.029750s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-17T14:20:24.459406316 0.029755s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-17T14:20:25.519559564 1.089909s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 3.
+2022-11-17T14:20:25.531694137 1.102044s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 3. Latest log index is 5.
+2022-11-17T14:20:25.587243053 1.157592s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 2.
+2022-11-17T14:20:25.588318166 1.158667s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 2. Latest log index is 2.
+2022-11-17T14:20:25.918435801 1.488785s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 2.
+2022-11-17T14:20:25.920584092 1.490933s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 2. Latest log index is 2.
+2022-11-17T14:23:41.319811685 196.890161s warn: Received invalid clustering header from 127.0.0.1:47836, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.320219347 196.890568s warn: Received invalid clustering header from 127.0.0.1:47844, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.320451258 196.890800s warn: Received invalid clustering header from 127.0.0.1:47848, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.320638285 196.890987s warn: Received invalid clustering header from 127.0.0.1:47862, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.320824601 196.891173s warn: Received invalid clustering header from 127.0.0.1:47872, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.321134643 196.891483s warn: Received invalid clustering header from 127.0.0.1:47884, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.321338672 196.891688s warn: Received invalid clustering header from 127.0.0.1:47896, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.321525915 196.891875s warn: Received invalid clustering header from 127.0.0.1:47898, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.321827647 196.892176s warn: Received invalid clustering header from 127.0.0.1:47908, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322162202 196.892511s warn: Received invalid clustering header from 127.0.0.1:47916, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322341418 196.892690s warn: Received invalid clustering header from 127.0.0.1:47918, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322541267 196.892890s warn: Received invalid clustering header from 127.0.0.1:47928, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322666246 196.893015s warn: Received invalid clustering header from 127.0.0.1:47940, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322835330 196.893184s warn: Received invalid clustering header from 127.0.0.1:47944, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.322937829 196.893287s warn: Received invalid clustering header from 127.0.0.1:47952, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323099755 196.893449s warn: Received invalid clustering header from 127.0.0.1:47960, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323192067 196.893541s warn: Received invalid clustering header from 127.0.0.1:47968, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323345435 196.893694s warn: Received invalid clustering header from 127.0.0.1:47970, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323436367 196.893785s warn: Received invalid clustering header from 127.0.0.1:47972, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323521167 196.893870s warn: Received invalid clustering header from 127.0.0.1:47988, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323609136 196.893958s warn: Received invalid clustering header from 127.0.0.1:47990, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323678416 196.894027s warn: Received invalid clustering header from 127.0.0.1:47996, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323764854 196.894114s warn: Received invalid clustering header from 127.0.0.1:47998, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.323870530 196.894219s warn: Received invalid clustering header from 127.0.0.1:48000, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324002611 196.894351s warn: Received invalid clustering header from 127.0.0.1:48016, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324121937 196.894471s warn: Received invalid clustering header from 127.0.0.1:48030, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324235716 196.894585s warn: Received invalid clustering header from 127.0.0.1:48046, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324394848 196.894744s warn: Received invalid clustering header from 127.0.0.1:48056, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324549730 196.894899s warn: Received invalid clustering header from 127.0.0.1:48060, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324665924 196.895015s warn: Received invalid clustering header from 127.0.0.1:48074, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324791310 196.895140s warn: Received invalid clustering header from 127.0.0.1:48080, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.324902561 196.895251s warn: Received invalid clustering header from 127.0.0.1:48092, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325019501 196.895368s warn: Received invalid clustering header from 127.0.0.1:48108, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325146609 196.895495s warn: Received invalid clustering header from 127.0.0.1:48120, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325263291 196.895612s warn: Received invalid clustering header from 127.0.0.1:48122, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325380480 196.895729s warn: Received invalid clustering header from 127.0.0.1:48136, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325488681 196.895837s warn: Received invalid clustering header from 127.0.0.1:48140, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325695755 196.896045s warn: Received invalid clustering header from 127.0.0.1:48152, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325786103 196.896135s warn: Received invalid clustering header from 127.0.0.1:48166, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325881702 196.896231s warn: Received invalid clustering header from 127.0.0.1:48178, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.325993232 196.896342s warn: Received invalid clustering header from 127.0.0.1:48180, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326092504 196.896441s warn: Received invalid clustering header from 127.0.0.1:48194, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326193202 196.896542s warn: Received invalid clustering header from 127.0.0.1:48208, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326264876 196.896614s warn: Received invalid clustering header from 127.0.0.1:48210, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326369394 196.896718s warn: Received invalid clustering header from 127.0.0.1:48218, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326471543 196.896820s warn: Received invalid clustering header from 127.0.0.1:48220, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326571889 196.896921s warn: Received invalid clustering header from 127.0.0.1:48226, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326717639 196.897067s warn: Received invalid clustering header from 127.0.0.1:48238, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326820082 196.897169s warn: Received invalid clustering header from 127.0.0.1:48244, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:41.326934570 196.897283s warn: Received invalid clustering header from 127.0.0.1:48258, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:43.352816216 198.923166s warn: Received invalid clustering header from 127.0.0.1:48260, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:47.360318046 202.930668s warn: Received invalid clustering header from 127.0.0.1:47544, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.558873120 212.129222s warn: Received invalid clustering header from 127.0.0.1:55790, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559129097 212.129478s warn: Received invalid clustering header from 127.0.0.1:55794, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559310178 212.129659s warn: Received invalid clustering header from 127.0.0.1:55806, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559453733 212.129803s warn: Received invalid clustering header from 127.0.0.1:55820, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559570846 212.129920s warn: Received invalid clustering header from 127.0.0.1:55834, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559743369 212.130092s warn: Received invalid clustering header from 127.0.0.1:55846, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559876193 212.130225s warn: Received invalid clustering header from 127.0.0.1:55858, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.559993592 212.130342s warn: Received invalid clustering header from 127.0.0.1:55866, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.560208217 212.130557s warn: Received invalid clustering header from 127.0.0.1:55878, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.560468349 212.130817s warn: Received invalid clustering header from 127.0.0.1:55894, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.560626765 212.130976s warn: Received invalid clustering header from 127.0.0.1:55906, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.560846662 212.131195s warn: Received invalid clustering header from 127.0.0.1:55916, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561004266 212.131353s warn: Received invalid clustering header from 127.0.0.1:55932, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561206002 212.131555s warn: Received invalid clustering header from 127.0.0.1:55938, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561351771 212.131701s warn: Received invalid clustering header from 127.0.0.1:55942, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561565782 212.131915s warn: Received invalid clustering header from 127.0.0.1:55958, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561695351 212.132044s warn: Received invalid clustering header from 127.0.0.1:55962, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.561886193 212.132235s warn: Received invalid clustering header from 127.0.0.1:55974, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562008103 212.132357s warn: Received invalid clustering header from 127.0.0.1:55982, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562123891 212.132473s warn: Received invalid clustering header from 127.0.0.1:55994, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562241408 212.132590s warn: Received invalid clustering header from 127.0.0.1:56008, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562312834 212.132662s warn: Received invalid clustering header from 127.0.0.1:56018, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562399469 212.132748s warn: Received invalid clustering header from 127.0.0.1:56026, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562495402 212.132844s warn: Received invalid clustering header from 127.0.0.1:56040, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562606093 212.132955s warn: Received invalid clustering header from 127.0.0.1:56052, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562715361 212.133064s warn: Received invalid clustering header from 127.0.0.1:56064, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562817845 212.133167s warn: Received invalid clustering header from 127.0.0.1:56066, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.562925842 212.133275s warn: Received invalid clustering header from 127.0.0.1:56070, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563017248 212.133366s warn: Received invalid clustering header from 127.0.0.1:56074, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563121408 212.133470s warn: Received invalid clustering header from 127.0.0.1:56088, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563231988 212.133581s warn: Received invalid clustering header from 127.0.0.1:56090, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563338132 212.133687s warn: Received invalid clustering header from 127.0.0.1:56100, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563451131 212.133800s warn: Received invalid clustering header from 127.0.0.1:56112, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563559062 212.133908s warn: Received invalid clustering header from 127.0.0.1:56128, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563667431 212.134016s warn: Received invalid clustering header from 127.0.0.1:56136, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563775724 212.134125s warn: Received invalid clustering header from 127.0.0.1:56146, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.563876642 212.134225s warn: Received invalid clustering header from 127.0.0.1:56162, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564071453 212.134420s warn: Received invalid clustering header from 127.0.0.1:56178, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564179167 212.134528s warn: Received invalid clustering header from 127.0.0.1:56192, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564294405 212.134643s warn: Received invalid clustering header from 127.0.0.1:56202, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564382281 212.134731s warn: Received invalid clustering header from 127.0.0.1:56216, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564465642 212.134814s warn: Received invalid clustering header from 127.0.0.1:56222, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564548980 212.134898s warn: Received invalid clustering header from 127.0.0.1:56228, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564631575 212.134980s warn: Received invalid clustering header from 127.0.0.1:56242, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564711721 212.135061s warn: Received invalid clustering header from 127.0.0.1:56244, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564796727 212.135146s warn: Received invalid clustering header from 127.0.0.1:56252, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564881007 212.135230s warn: Received invalid clustering header from 127.0.0.1:56258, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.564964683 212.135313s warn: Received invalid clustering header from 127.0.0.1:56264, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.565046640 212.135395s warn: Received invalid clustering header from 127.0.0.1:56280, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:56.565132538 212.135481s warn: Received invalid clustering header from 127.0.0.1:56296, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:23:58.586744295 214.157094s warn: Received invalid clustering header from 127.0.0.1:56304, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:24:02.593854115 218.164204s warn: Received invalid clustering header from 127.0.0.1:56318, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:24:10.602163621 226.172513s warn: Received invalid clustering header from 127.0.0.1:53470, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:24:26.604746088 242.175095s warn: Received invalid clustering header from 127.0.0.1:42824, closing connection -- something might be connecting to the wrong port.
+2022-11-17T14:26:06.929091442 342.499441s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-17T14:26:06.929372323 342.499722s notice: Shutting down client connections...
+2022-11-17T14:26:06.931979906 342.502329s notice: All client connections closed.
+2022-11-17T14:26:06.931992810 342.502342s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-17T14:26:06.946234276 342.516583s notice: Storage engine shut down.
+2022-11-17T14:26:17.919505201 0.009249s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-17T14:26:17.920531822 0.010276s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-17T14:26:17.920544778 0.010289s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-17T14:26:17.924747815 0.014492s info: Automatically using cache size of 1987 MB
+2022-11-17T14:26:17.924982260 0.014726s notice: Listening for intracluster connections on port 29015
+2022-11-17T14:26:17.937457909 0.027202s notice: Listening for client driver connections on port 28015
+2022-11-17T14:26:17.937484711 0.027229s notice: Listening for administrative HTTP connections on port 8080
+2022-11-17T14:26:17.937484944 0.027229s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-17T14:26:17.937485204 0.027229s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-17T14:26:17.937495608 0.027240s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-17T14:26:17.937497490 0.027242s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-17T14:26:17.937502982 0.027247s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-17T14:26:19.064134421 1.153879s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 3.
+2022-11-17T14:26:19.075909598 1.165654s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 3. Latest log index is 5.
+2022-11-17T14:26:19.721679911 1.811424s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 4.
+2022-11-17T14:26:19.733460921 1.823205s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 4. Latest log index is 8.
+2022-11-17T14:26:19.870679847 1.960424s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 3.
+2022-11-17T14:26:19.872945302 1.962690s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 3. Latest log index is 5.
+2022-11-17T14:28:43.654227841 145.743973s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-17T14:28:43.654472426 145.744217s notice: Shutting down client connections...
+2022-11-17T14:28:43.656879437 145.746624s notice: All client connections closed.
+2022-11-17T14:28:43.656890937 145.746635s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-17T14:28:43.664279327 145.754024s notice: Storage engine shut down.
+2022-11-17T14:30:09.767067243 0.017943s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-17T14:30:09.768524466 0.019401s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-17T14:30:09.768538173 0.019414s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-17T14:30:09.772792968 0.023669s info: Automatically using cache size of 2126 MB
+2022-11-17T14:30:09.773058626 0.023934s notice: Listening for intracluster connections on port 29015
+2022-11-17T14:30:09.785106012 0.035982s notice: Listening for client driver connections on port 28015
+2022-11-17T14:30:09.785128231 0.036004s notice: Listening for administrative HTTP connections on port 8080
+2022-11-17T14:30:09.785128450 0.036004s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-17T14:30:09.785132735 0.036008s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-17T14:30:09.785146908 0.036023s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-17T14:30:09.785148268 0.036024s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-17T14:30:09.785149386 0.036025s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-17T14:30:10.822793154 1.073669s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 4.
+2022-11-17T14:30:10.834325770 1.085202s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 4. Latest log index is 8.
+2022-11-17T14:30:10.968810973 1.219687s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 4.
+2022-11-17T14:30:10.970585318 1.221461s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 4. Latest log index is 8.
+2022-11-17T14:30:11.218237337 1.469113s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 5.
+2022-11-17T14:30:11.219125003 1.470001s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 5. Latest log index is 11.
+2022-11-17T15:55:25.787626804 5116.038503s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-17T15:55:25.787906201 5116.038782s notice: Shutting down client connections...
+2022-11-17T15:55:25.797096225 5116.047972s notice: All client connections closed.
+2022-11-17T15:55:25.797104704 5116.047980s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-17T15:55:25.799314018 5116.050190s notice: Storage engine shut down.
+2022-11-18T05:18:56.162657416 0.008120s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-18T05:18:56.163533235 0.008996s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-18T05:18:56.163549160 0.009012s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-18T05:18:56.168418751 0.013882s info: Automatically using cache size of 1720 MB
+2022-11-18T05:18:56.168670200 0.014133s notice: Listening for intracluster connections on port 29015
+2022-11-18T05:18:56.185096093 0.030559s notice: Listening for client driver connections on port 28015
+2022-11-18T05:18:56.185132053 0.030595s notice: Listening for administrative HTTP connections on port 8080
+2022-11-18T05:18:56.185138155 0.030601s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-18T05:18:56.185139329 0.030602s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-18T05:18:56.185140418 0.030603s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-18T05:18:56.185141422 0.030604s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-18T05:18:56.185144057 0.030607s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-18T05:18:57.370373995 1.215837s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 5.
+2022-11-18T05:18:57.381134454 1.226597s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 5. Latest log index is 11.
+2022-11-18T05:18:57.427547684 1.273011s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 5.
+2022-11-18T05:18:57.428626936 1.274090s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 5. Latest log index is 11.
+2022-11-18T05:18:57.931356345 1.776820s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 6.
+2022-11-18T05:18:57.932634468 1.778097s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 6. Latest log index is 14.
+2022-11-21T06:37:55.860711969 66846.233092s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-21T06:37:55.861048892 66846.233428s notice: Shutting down client connections...
+2022-11-21T06:37:55.863489760 66846.235869s notice: All client connections closed.
+2022-11-21T06:37:55.863493153 66846.235873s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-21T06:37:55.870949352 66846.243329s notice: Storage engine shut down.
+2022-11-21T06:37:57.760662031 0.013672s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-21T06:37:57.761965021 0.014975s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-21T06:37:57.762012430 0.015022s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-21T06:37:57.768416105 0.021426s info: Automatically using cache size of 1443 MB
+2022-11-21T06:37:57.768817147 0.021827s notice: Listening for intracluster connections on port 29015
+2022-11-21T06:37:57.786915852 0.039925s notice: Listening for client driver connections on port 28015
+2022-11-21T06:37:57.786953536 0.039963s notice: Listening for administrative HTTP connections on port 8080
+2022-11-21T06:37:57.786954755 0.039964s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-21T06:37:57.786955807 0.039965s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-21T06:37:57.786966871 0.039976s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-21T06:37:57.786968315 0.039978s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-21T06:37:57.786969532 0.039979s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-21T06:37:59.036078502 1.289088s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 6.
+2022-11-21T06:37:59.046742321 1.299752s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 6. Latest log index is 14.
+2022-11-21T06:37:59.076850664 1.329860s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 6.
+2022-11-21T06:37:59.077935346 1.330945s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 6. Latest log index is 14.
+2022-11-21T06:37:59.148932813 1.401942s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 7.
+2022-11-21T06:37:59.150353441 1.403363s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 7. Latest log index is 17.
+2022-11-21T06:46:50.891139875 0.019946s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-21T06:46:50.892051308 0.020857s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-21T06:46:50.892059318 0.020865s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-21T06:46:50.896062802 0.024869s info: Automatically using cache size of 1409 MB
+2022-11-21T06:46:50.896324925 0.025131s notice: Listening for intracluster connections on port 29015
+2022-11-21T06:46:50.909351482 0.038158s notice: Listening for client driver connections on port 28015
+2022-11-21T06:46:50.909391069 0.038197s notice: Listening for administrative HTTP connections on port 8080
+2022-11-21T06:46:50.909397924 0.038204s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-21T06:46:50.909400223 0.038206s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-21T06:46:50.909402112 0.038208s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-21T06:46:50.909403804 0.038210s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-21T06:46:50.909405702 0.038212s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-21T06:46:52.032204097 1.161011s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 7.
+2022-11-21T06:46:52.043363413 1.172170s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 7. Latest log index is 17.
+2022-11-21T06:46:52.826477774 1.955284s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 8.
+2022-11-21T06:46:52.837337691 1.966144s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 8. Latest log index is 20.
+2022-11-21T06:46:52.897772392 2.026579s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 7.
+2022-11-21T06:46:52.898776099 2.027582s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 7. Latest log index is 17.
+2022-11-22T06:18:01.504555160 33273.402369s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 1.
+2022-11-22T06:18:01.504878951 33273.402692s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Added replica on this server.
+2022-11-22T06:18:01.506146498 33273.403960s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 1. Latest log index is 0.
+2022-11-22T10:00:02.446030303 46594.343844s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 1.
+2022-11-22T10:00:02.446158030 46594.343971s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Added replica on this server.
+2022-11-22T10:00:02.447623254 46594.345437s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 1. Latest log index is 0.
+2022-11-23T07:18:22.693984450 70503.984186s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2022-11-23T07:43:39.577572694 72020.867771s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2022-11-23T08:45:31.810213374 75733.100412s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-23T08:45:31.810328261 75733.100526s notice: Shutting down client connections...
+2022-11-23T08:45:31.820232841 75733.110431s notice: All client connections closed.
+2022-11-23T08:45:31.820237521 75733.110435s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-23T08:45:31.828522544 75733.118721s notice: Storage engine shut down.
+2022-11-23T08:46:13.725940679 0.015699s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-23T08:46:13.727897143 0.017657s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-23T08:46:13.727935159 0.017693s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-23T08:46:13.735588774 0.025347s info: Automatically using cache size of 1471 MB
+2022-11-23T08:46:13.736119724 0.025878s notice: Listening for intracluster connections on port 29015
+2022-11-23T08:46:13.766239027 0.055998s notice: Listening for client driver connections on port 28015
+2022-11-23T08:46:13.766297273 0.056056s notice: Listening for administrative HTTP connections on port 8080
+2022-11-23T08:46:13.766299958 0.056058s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-23T08:46:13.766301425 0.056060s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-23T08:46:13.766313393 0.056072s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-23T08:46:13.766315069 0.056073s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-23T08:46:13.766316862 0.056075s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-23T08:46:14.982182971 1.271941s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 8.
+2022-11-23T08:46:14.993667941 1.283426s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 8. Latest log index is 20.
+2022-11-23T08:46:15.004709878 1.294468s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 8.
+2022-11-23T08:46:15.005623961 1.295382s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 8. Latest log index is 20.
+2022-11-23T08:46:15.269248018 1.559006s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 2.
+2022-11-23T08:46:15.270283830 1.560042s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 2. Latest log index is 2.
+2022-11-23T08:46:15.454781913 1.744540s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 9.
+2022-11-23T08:46:15.455840437 1.745599s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 9. Latest log index is 23.
+2022-11-23T08:46:15.489558091 1.779318s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 2.
+2022-11-23T08:46:15.490662916 1.780421s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 2. Latest log index is 2.
+2022-11-23T08:55:48.402750689 574.692511s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-23T08:55:48.403012016 574.692770s notice: Shutting down client connections...
+2022-11-23T08:55:48.405587713 574.695346s notice: All client connections closed.
+2022-11-23T08:55:48.405594233 574.695353s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-23T08:55:48.409970566 574.699729s notice: Storage engine shut down.
+2022-11-23T09:09:53.572933172 0.020818s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-23T09:09:53.573792192 0.021677s notice: Running on Linux 5.15.0-52-generic x86_64
+2022-11-23T09:09:53.573811407 0.021696s notice: Loading data from directory /home/dna-dev/rethinkdb_data
+2022-11-23T09:09:53.577898981 0.025784s info: Automatically using cache size of 1434 MB
+2022-11-23T09:09:53.578130386 0.026015s notice: Listening for intracluster connections on port 29015
+2022-11-23T09:09:53.600219251 0.048104s notice: Listening for client driver connections on port 28015
+2022-11-23T09:09:53.600245875 0.048131s notice: Listening for administrative HTTP connections on port 8080
+2022-11-23T09:09:53.600252393 0.048137s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-23T09:09:53.600287531 0.048172s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-23T09:09:53.600289437 0.048174s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-23T09:09:53.600291659 0.048176s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-23T09:09:53.600293099 0.048178s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-23T09:09:54.756430472 1.204316s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 9.
+2022-11-23T09:09:54.768092990 1.215978s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 9. Latest log index is 23.
+2022-11-23T09:09:54.926984502 1.374870s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 9.
+2022-11-23T09:09:54.938076533 1.385961s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 9. Latest log index is 23.
+2022-11-23T09:09:54.941148635 1.389033s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 10.
+2022-11-23T09:09:54.942183317 1.390068s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 10. Latest log index is 26.
+2022-11-23T09:09:55.361990275 1.809875s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 3.
+2022-11-23T09:09:55.365980654 1.813866s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 3. Latest log index is 5.
+2022-11-23T09:09:55.469473287 1.917358s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 3.
+2022-11-23T09:09:55.470629133 1.918514s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 3. Latest log index is 5.
+2022-11-29T07:00:50.816697535 89465.038896s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Configuration is changing.
+2022-11-29T07:24:16.622125361 0.020452s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-29T07:24:16.623198726 0.021527s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-29T07:24:16.623241485 0.021568s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-29T07:24:16.639400261 0.037727s info: Automatically using cache size of 4225 MB
+2022-11-29T07:24:16.639911795 0.038238s notice: Listening for intracluster connections on port 29015
+2022-11-29T07:24:16.674423778 0.072751s notice: Listening for client driver connections on port 28015
+2022-11-29T07:24:16.674448290 0.072775s notice: Listening for administrative HTTP connections on port 8080
+2022-11-29T07:24:16.674448626 0.072775s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-29T07:24:16.674448899 0.072776s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-29T07:24:16.674463145 0.072790s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-29T07:24:16.674469618 0.072796s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-29T07:24:16.674474760 0.072801s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-29T07:24:17.703705585 1.102032s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 4.
+2022-11-29T07:24:17.710593428 1.108920s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 4. Latest log index is 8.
+2022-11-29T07:24:17.896222523 1.294549s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Starting a new Raft election for term 11.
+2022-11-29T07:24:17.902977548 1.301304s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: This server is Raft leader for term 11. Latest log index is 29.
+2022-11-29T07:24:17.919158134 1.317485s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Starting a new Raft election for term 10.
+2022-11-29T07:24:17.923268647 1.321595s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: This server is Raft leader for term 10. Latest log index is 26.
+2022-11-29T07:24:18.549056983 1.947384s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 4.
+2022-11-29T07:24:18.549734679 1.948061s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 4. Latest log index is 8.
+2022-11-29T07:24:18.633318937 2.031646s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 10.
+2022-11-29T07:24:18.634022116 2.032349s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 10. Latest log index is 26.
+2022-11-29T07:24:48.941328729 32.339656s notice: Removing file /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data/638204c6-0c68-4392-a41b-7bf91555bddb
+2022-11-29T07:24:48.941332218 32.339659s info: Table 638204c6-0c68-4392-a41b-7bf91555bddb: Deleted the table.
+2022-11-29T07:24:54.383374566 37.781701s notice: Removing file /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data/f8e6f6a1-85e8-41d9-9401-97a540080bbc
+2022-11-29T07:24:54.383377515 37.781704s info: Table f8e6f6a1-85e8-41d9-9401-97a540080bbc: Deleted the table.
+2022-11-29T09:21:47.102574064 7050.500901s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-29T09:21:47.102641614 7050.500968s notice: Shutting down client connections...
+2022-11-29T09:21:47.102686572 7050.501013s notice: All client connections closed.
+2022-11-29T09:21:47.102688169 7050.501015s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-29T09:21:47.104374453 7050.502701s notice: Storage engine shut down.
+2022-11-29T11:03:09.709961533 0.008646s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-29T11:03:09.710948045 0.009632s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-29T11:03:09.710978183 0.009662s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-29T11:03:09.716646634 0.015331s info: Automatically using cache size of 3820 MB
+2022-11-29T11:03:09.717454542 0.016139s notice: Listening for intracluster connections on port 29015
+2022-11-29T11:03:09.743759510 0.042444s notice: Listening for client driver connections on port 28015
+2022-11-29T11:03:09.743798066 0.042482s notice: Listening for administrative HTTP connections on port 8080
+2022-11-29T11:03:09.743800224 0.042484s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-29T11:03:09.743801666 0.042486s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-29T11:03:09.743814487 0.042498s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-29T11:03:09.743818434 0.042502s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-29T11:03:09.743822426 0.042506s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-29T11:03:10.744324008 1.043008s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 5.
+2022-11-29T11:03:10.751264677 1.049950s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 5. Latest log index is 11.
+2022-11-29T11:03:11.368866778 1.667551s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 5.
+2022-11-29T11:03:11.375657270 1.674341s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 5. Latest log index is 11.
+2022-11-29T11:03:11.586012819 1.884697s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 11.
+2022-11-29T11:03:11.590800433 1.889484s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 11. Latest log index is 29.
+2022-11-29T19:11:01.624256225 29271.922941s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-29T19:11:01.624418944 29271.923103s notice: Shutting down client connections...
+2022-11-29T19:11:01.624578127 29271.923262s notice: All client connections closed.
+2022-11-29T19:11:01.624581622 29271.923266s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-29T19:11:01.634940518 29271.933625s notice: Storage engine shut down.
+2022-11-30T05:03:24.621107628 0.007822s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-30T05:03:24.621978854 0.008694s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-30T05:03:24.622004580 0.008719s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-30T05:03:24.626291838 0.013006s info: Automatically using cache size of 4755 MB
+2022-11-30T05:03:24.626550271 0.013265s notice: Listening for intracluster connections on port 29015
+2022-11-30T05:03:24.650605700 0.037320s notice: Listening for client driver connections on port 28015
+2022-11-30T05:03:24.650641237 0.037356s notice: Listening for administrative HTTP connections on port 8080
+2022-11-30T05:03:24.650642270 0.037357s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-30T05:03:24.650648325 0.037363s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-30T05:03:24.650649750 0.037364s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-30T05:03:24.650650867 0.037365s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-30T05:03:24.650651749 0.037366s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-30T05:03:26.158607941 1.545322s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 12.
+2022-11-30T05:03:26.165507833 1.552222s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 12. Latest log index is 32.
+2022-11-30T05:03:26.442660448 1.829375s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 6.
+2022-11-30T05:03:26.443726295 1.830441s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 6. Latest log index is 14.
+2022-11-30T05:03:26.446102075 1.832816s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 6.
+2022-11-30T05:03:26.446747750 1.833462s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 6. Latest log index is 14.
+2022-11-30T05:38:57.397320964 2132.784035s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-30T05:38:57.397380542 2132.784095s notice: Shutting down client connections...
+2022-11-30T05:38:57.397430831 2132.784145s notice: All client connections closed.
+2022-11-30T05:38:57.397431723 2132.784146s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-30T05:38:57.405631839 2132.792346s notice: Storage engine shut down.
+2022-11-30T06:12:26.603471942 0.014678s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-30T06:12:26.604429297 0.015636s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-30T06:12:26.604458176 0.015664s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-30T06:12:26.609923970 0.021130s info: Automatically using cache size of 4331 MB
+2022-11-30T06:12:26.616909198 0.028115s notice: Listening for intracluster connections on port 29015
+2022-11-30T06:12:26.640822274 0.052028s notice: Listening for client driver connections on port 28015
+2022-11-30T06:12:26.640846591 0.052052s notice: Listening for administrative HTTP connections on port 8080
+2022-11-30T06:12:26.640913192 0.052119s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-30T06:12:26.640913569 0.052119s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-30T06:12:26.640916319 0.052122s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-30T06:12:26.640918637 0.052124s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-30T06:12:26.640920674 0.052126s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-30T06:12:27.976782630 1.387989s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 13.
+2022-11-30T06:12:27.983668569 1.394874s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 13. Latest log index is 35.
+2022-11-30T06:12:28.227611312 1.638817s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 7.
+2022-11-30T06:12:28.228276825 1.639483s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 7. Latest log index is 17.
+2022-11-30T06:12:28.534605035 1.945811s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 7.
+2022-11-30T06:12:28.535468800 1.946675s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 7. Latest log index is 17.
+2022-11-30T09:22:59.537945732 11432.949152s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-30T09:22:59.538014766 11432.949221s notice: Shutting down client connections...
+2022-11-30T09:22:59.538092551 11432.949298s notice: All client connections closed.
+2022-11-30T09:22:59.538094425 11432.949300s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-30T09:22:59.540337405 11432.951543s notice: Storage engine shut down.
+2022-11-30T11:03:59.058252233 0.028848s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-30T11:03:59.060075908 0.030674s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-30T11:03:59.060231054 0.030827s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-30T11:03:59.067607065 0.038203s info: Automatically using cache size of 3422 MB
+2022-11-30T11:03:59.068143045 0.038739s notice: Listening for intracluster connections on port 29015
+2022-11-30T11:03:59.129745166 0.100341s notice: Listening for client driver connections on port 28015
+2022-11-30T11:03:59.129808941 0.100405s notice: Listening for administrative HTTP connections on port 8080
+2022-11-30T11:03:59.129811332 0.100407s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-30T11:03:59.129814469 0.100410s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-30T11:03:59.129832823 0.100428s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-30T11:03:59.129834372 0.100430s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-30T11:03:59.129836346 0.100432s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-30T11:04:00.422915992 1.393512s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 14.
+2022-11-30T11:04:00.429878541 1.400474s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 14. Latest log index is 38.
+2022-11-30T11:04:00.484075893 1.454672s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 8.
+2022-11-30T11:04:00.485039316 1.455635s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 8. Latest log index is 20.
+2022-11-30T11:04:00.575651236 1.546247s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 8.
+2022-11-30T11:04:00.576480135 1.547076s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 8. Latest log index is 20.
+2022-11-30T12:21:48.948509662 4669.919105s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-30T12:21:48.948659484 4669.919255s notice: Shutting down client connections...
+2022-11-30T12:21:48.948786407 4669.919382s notice: All client connections closed.
+2022-11-30T12:21:48.948791848 4669.919388s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-30T12:21:48.954838479 4669.925434s notice: Storage engine shut down.
+2022-11-30T12:43:10.018673492 0.014640s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-11-30T12:43:10.019587831 0.015555s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-11-30T12:43:10.019616739 0.015583s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-11-30T12:43:10.023713959 0.019681s info: Automatically using cache size of 3736 MB
+2022-11-30T12:43:10.023978897 0.019946s notice: Listening for intracluster connections on port 29015
+2022-11-30T12:43:10.048141306 0.044108s notice: Listening for client driver connections on port 28015
+2022-11-30T12:43:10.048175212 0.044142s notice: Listening for administrative HTTP connections on port 8080
+2022-11-30T12:43:10.048204177 0.044171s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-11-30T12:43:10.048204525 0.044171s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-11-30T12:43:10.048204853 0.044172s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-11-30T12:43:10.048206663 0.044173s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-11-30T12:43:10.048209775 0.044177s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-11-30T12:43:11.576433835 1.572401s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 9.
+2022-11-30T12:43:11.583245544 1.579212s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 9. Latest log index is 23.
+2022-11-30T12:43:11.640868773 1.636836s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 15.
+2022-11-30T12:43:11.641699199 1.637666s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 15. Latest log index is 41.
+2022-11-30T12:43:11.680329825 1.676297s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 9.
+2022-11-30T12:43:11.680940827 1.676908s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 9. Latest log index is 23.
+2022-11-30T13:37:47.757136126 3277.753103s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-11-30T13:37:47.757210514 3277.753177s notice: Shutting down client connections...
+2022-11-30T13:37:47.757266772 3277.753234s notice: All client connections closed.
+2022-11-30T13:37:47.757268888 3277.753236s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-11-30T13:37:47.759017506 3277.754984s notice: Storage engine shut down.
+2022-12-01T05:01:37.346730009 0.013895s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-01T05:01:37.348225678 0.015391s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-01T05:01:37.348271322 0.015436s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-01T05:01:37.357854799 0.025020s info: Automatically using cache size of 5164 MB
+2022-12-01T05:01:37.359085691 0.026250s notice: Listening for intracluster connections on port 29015
+2022-12-01T05:01:37.398836035 0.066001s notice: Listening for client driver connections on port 28015
+2022-12-01T05:01:37.398885822 0.066050s notice: Listening for administrative HTTP connections on port 8080
+2022-12-01T05:01:37.398902366 0.066067s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-01T05:01:37.398904663 0.066069s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-01T05:01:37.398907021 0.066072s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-01T05:01:37.398908933 0.066074s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-01T05:01:37.398910424 0.066075s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-01T05:01:38.504897924 1.172063s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 10.
+2022-12-01T05:01:38.512025351 1.179190s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 10. Latest log index is 26.
+2022-12-01T05:01:39.349830641 2.016995s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 10.
+2022-12-01T05:01:39.356615434 2.023780s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 10. Latest log index is 26.
+2022-12-01T05:01:39.389841860 2.057007s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 16.
+2022-12-01T05:01:39.390501850 2.057666s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 16. Latest log index is 44.
+2022-12-01T06:31:47.294745097 5409.961910s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-01T06:31:47.294809181 5409.961974s notice: Shutting down client connections...
+2022-12-01T06:31:47.294834063 5409.961999s notice: All client connections closed.
+2022-12-01T06:31:47.294835052 5409.962000s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-01T06:31:47.304849193 5409.972014s notice: Storage engine shut down.
+2022-12-01T06:32:04.338386712 0.022500s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-01T06:32:04.339817992 0.023932s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-01T06:32:04.339855072 0.023968s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-01T06:32:04.350768512 0.034882s info: Automatically using cache size of 5121 MB
+2022-12-01T06:32:04.352429249 0.036542s notice: Listening for intracluster connections on port 29015
+2022-12-01T06:32:04.383373527 0.067487s notice: Listening for client driver connections on port 28015
+2022-12-01T06:32:04.383410318 0.067523s notice: Listening for administrative HTTP connections on port 8080
+2022-12-01T06:32:04.383501487 0.067614s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-01T06:32:04.383501852 0.067615s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-01T06:32:04.383504505 0.067617s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-01T06:32:04.383505876 0.067619s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-01T06:32:04.383507083 0.067620s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-01T06:32:05.580165762 1.264279s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 17.
+2022-12-01T06:32:05.587099219 1.271212s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 17. Latest log index is 47.
+2022-12-01T06:32:05.751713502 1.435826s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 11.
+2022-12-01T06:32:05.758640830 1.442754s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 11. Latest log index is 29.
+2022-12-01T06:32:06.318829822 2.002943s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 11.
+2022-12-01T06:32:06.325828512 2.009941s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 11. Latest log index is 29.
+2022-12-01T10:12:55.181114595 13250.865228s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-01T10:12:55.181292167 13250.865405s notice: Shutting down client connections...
+2022-12-01T10:12:55.181453151 13250.865566s notice: All client connections closed.
+2022-12-01T10:12:55.181454566 13250.865567s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-01T10:12:55.183743397 13250.867856s notice: Storage engine shut down.
+2022-12-01T12:49:02.853401355 0.013545s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-01T12:49:02.854356573 0.014501s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-01T12:49:02.854386622 0.014530s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-01T12:49:02.858714695 0.018859s info: Automatically using cache size of 3758 MB
+2022-12-01T12:49:02.858985815 0.019130s notice: Listening for intracluster connections on port 29015
+2022-12-01T12:49:02.884078412 0.044222s notice: Listening for client driver connections on port 28015
+2022-12-01T12:49:02.884108698 0.044252s notice: Listening for administrative HTTP connections on port 8080
+2022-12-01T12:49:02.884119621 0.044263s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-01T12:49:02.884121964 0.044266s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-01T12:49:02.884123776 0.044267s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-01T12:49:02.884125145 0.044269s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-01T12:49:02.884126803 0.044270s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-01T12:49:04.339975428 1.500119s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 12.
+2022-12-01T12:49:04.346845443 1.506989s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 12. Latest log index is 32.
+2022-12-01T12:49:04.411200610 1.571345s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 18.
+2022-12-01T12:49:04.413280668 1.573425s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 18. Latest log index is 50.
+2022-12-01T12:49:04.659181829 1.819326s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 12.
+2022-12-01T12:49:04.659964388 1.820108s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 12. Latest log index is 32.
+2022-12-01T13:40:56.991320648 3114.151465s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-01T13:40:56.991468505 3114.151612s notice: Shutting down client connections...
+2022-12-01T13:40:56.991613813 3114.151758s notice: All client connections closed.
+2022-12-01T13:40:56.991617786 3114.151762s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-01T13:40:56.997049721 3114.157194s notice: Storage engine shut down.
+2022-12-02T05:13:15.273150263 0.012324s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-02T05:13:15.274183999 0.013358s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-02T05:13:15.274202948 0.013377s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-02T05:13:15.280593727 0.019768s info: Automatically using cache size of 5578 MB
+2022-12-02T05:13:15.281833603 0.021008s notice: Listening for intracluster connections on port 29015
+2022-12-02T05:13:15.314888829 0.054063s notice: Listening for client driver connections on port 28015
+2022-12-02T05:13:15.314915404 0.054089s notice: Listening for administrative HTTP connections on port 8080
+2022-12-02T05:13:15.314915724 0.054090s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-02T05:13:15.314915926 0.054090s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-02T05:13:15.314981975 0.054156s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-02T05:13:15.314989932 0.054164s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-02T05:13:15.314991836 0.054166s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-02T05:13:16.670542099 1.409716s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 13.
+2022-12-02T05:13:16.677443409 1.416617s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 13. Latest log index is 35.
+2022-12-02T05:13:16.794506374 1.533680s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 19.
+2022-12-02T05:13:16.798977292 1.538151s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 13.
+2022-12-02T05:13:16.801310067 1.540484s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 19. Latest log index is 53.
+2022-12-02T05:13:16.802156520 1.541331s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 13. Latest log index is 35.
+2022-12-02T09:58:19.277668957 17104.016843s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-02T09:58:19.277829451 17104.017004s notice: Shutting down client connections...
+2022-12-02T09:58:19.277971821 17104.017146s notice: All client connections closed.
+2022-12-02T09:58:19.277976458 17104.017151s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-02T09:58:19.287224738 17104.026399s notice: Storage engine shut down.
+2022-12-02T11:44:37.276306608 0.006345s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-02T11:44:37.277221104 0.007260s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-02T11:44:37.277254878 0.007293s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-02T11:44:37.288303245 0.018342s info: Automatically using cache size of 4247 MB
+2022-12-02T11:44:37.288587057 0.018626s notice: Listening for intracluster connections on port 29015
+2022-12-02T11:44:37.323603601 0.053642s notice: Listening for client driver connections on port 28015
+2022-12-02T11:44:37.323638009 0.053677s notice: Listening for administrative HTTP connections on port 8080
+2022-12-02T11:44:37.323639214 0.053678s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-02T11:44:37.323640883 0.053680s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-02T11:44:37.323648057 0.053687s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-02T11:44:37.323650068 0.053689s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-02T11:44:37.323651750 0.053690s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-02T11:44:38.360280437 1.090319s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 14.
+2022-12-02T11:44:38.367268731 1.097307s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 14. Latest log index is 38.
+2022-12-02T11:44:38.457968723 1.188007s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 14.
+2022-12-02T11:44:38.458938902 1.188978s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 14. Latest log index is 38.
+2022-12-02T11:44:39.196747277 1.926786s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 20.
+2022-12-02T11:44:39.203579630 1.933618s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 20. Latest log index is 56.
+2022-12-02T12:46:07.640592640 3690.370632s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-02T12:46:07.640749909 3690.370789s notice: Shutting down client connections...
+2022-12-02T12:46:07.640831323 3690.370870s notice: All client connections closed.
+2022-12-02T12:46:07.640835282 3690.370874s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-02T12:46:07.647567041 3690.377606s notice: Storage engine shut down.
+2022-12-05T06:05:48.548395842 0.011559s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-05T06:05:48.549452756 0.012616s notice: Running on Linux 5.15.0-56-generic x86_64
+2022-12-05T06:05:48.549482017 0.012645s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-05T06:05:48.559312594 0.022476s info: Automatically using cache size of 4368 MB
+2022-12-05T06:05:48.560658933 0.023822s notice: Listening for intracluster connections on port 29015
+2022-12-05T06:05:48.602034233 0.065197s notice: Listening for client driver connections on port 28015
+2022-12-05T06:05:48.602072343 0.065235s notice: Listening for administrative HTTP connections on port 8080
+2022-12-05T06:05:48.602075450 0.065238s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-05T06:05:48.602076948 0.065240s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-05T06:05:48.602080774 0.065244s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-05T06:05:48.602083508 0.065246s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-05T06:05:48.602086049 0.065249s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-05T06:05:49.621571963 1.084735s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 21.
+2022-12-05T06:05:49.628452993 1.091616s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 21. Latest log index is 59.
+2022-12-05T06:05:50.279413490 1.742577s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 15.
+2022-12-05T06:05:50.286275544 1.749439s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 15. Latest log index is 41.
+2022-12-05T06:05:50.460547239 1.923710s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 15.
+2022-12-05T06:05:50.467479112 1.930642s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 15. Latest log index is 41.
+2022-12-05T09:08:24.029487932 10955.492651s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-05T09:08:24.029556226 10955.492719s notice: Shutting down client connections...
+2022-12-05T09:08:24.029628423 10955.492791s notice: All client connections closed.
+2022-12-05T09:08:24.029630462 10955.492793s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-05T09:08:24.039297149 10955.502460s notice: Storage engine shut down.
+2022-12-05T11:20:10.898783987 0.014035s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-05T11:20:10.899844995 0.015096s notice: Running on Linux 5.15.0-56-generic x86_64
+2022-12-05T11:20:10.899877820 0.015129s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-05T11:20:10.908882545 0.024133s info: Automatically using cache size of 3713 MB
+2022-12-05T11:20:10.909158552 0.024409s notice: Listening for intracluster connections on port 29015
+2022-12-05T11:20:10.946816300 0.062067s notice: Listening for client driver connections on port 28015
+2022-12-05T11:20:10.946852946 0.062104s notice: Listening for administrative HTTP connections on port 8080
+2022-12-05T11:20:10.946854050 0.062105s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-05T11:20:10.946854999 0.062106s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-05T11:20:10.946863357 0.062114s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-05T11:20:10.946865432 0.062116s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-05T11:20:10.946866450 0.062117s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-05T11:20:11.971337182 1.086588s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 16.
+2022-12-05T11:20:11.978317650 1.093569s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 16. Latest log index is 44.
+2022-12-05T11:20:12.466795140 1.582046s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 22.
+2022-12-05T11:20:12.468708245 1.583959s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 22. Latest log index is 62.
+2022-12-05T11:20:12.877221228 1.992472s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 16.
+2022-12-05T11:20:12.884802939 2.000054s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 16. Latest log index is 44.
+2022-12-05T13:05:15.136056409 6304.251307s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-05T13:05:15.136138042 6304.251389s notice: Shutting down client connections...
+2022-12-05T13:05:15.136199283 6304.251450s notice: All client connections closed.
+2022-12-05T13:05:15.136201015 6304.251452s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-05T13:05:15.137968739 6304.253220s notice: Storage engine shut down.
+2022-12-05T13:22:41.752260693 0.008344s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-05T13:22:41.753327287 0.009410s notice: Running on Linux 5.15.0-56-generic x86_64
+2022-12-05T13:22:41.753364381 0.009447s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/pantry-management-system-be/rethinkdb_data
+2022-12-05T13:22:41.759152491 0.015235s info: Automatically using cache size of 2843 MB
+2022-12-05T13:22:41.759535024 0.015618s notice: Listening for intracluster connections on port 29015
+2022-12-05T13:22:41.799769762 0.055853s notice: Listening for client driver connections on port 28015
+2022-12-05T13:22:41.799817771 0.055901s notice: Listening for administrative HTTP connections on port 8080
+2022-12-05T13:22:41.799819905 0.055903s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-05T13:22:41.799821353 0.055904s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-05T13:22:41.799951136 0.056034s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-05T13:22:41.799952373 0.056035s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-05T13:22:41.799953449 0.056036s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-05T13:22:43.012644726 1.268728s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 17.
+2022-12-05T13:22:43.013449257 1.269532s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 17. Latest log index is 47.
+2022-12-05T13:22:43.033596949 1.289680s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 23.
+2022-12-05T13:22:43.034223419 1.290306s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 23. Latest log index is 65.
+2022-12-05T13:22:43.470864292 1.726947s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 17.
+2022-12-05T13:22:43.471470099 1.727553s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 17. Latest log index is 47.
+2022-12-05T13:24:41.288561398 119.544644s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-05T13:24:41.288645158 119.544728s notice: Shutting down client connections...
+2022-12-05T13:24:41.288712915 119.544796s notice: All client connections closed.
+2022-12-05T13:24:41.288714681 119.544797s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-05T13:24:41.290716484 119.546799s notice: Storage engine shut down.
+2022-12-06T05:13:15.633986109 0.006694s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-06T05:13:15.635034179 0.007742s notice: Running on Linux 5.15.0-56-generic x86_64
+2022-12-06T05:13:15.635076339 0.007784s notice: Loading data from directory /home/huzaifa/Desktop/DNA Micro/Training/14) Project/Backend/After pull/pantry-management-system-be/rethinkdb_data
+2022-12-06T05:13:15.640668069 0.013376s info: Automatically using cache size of 4891 MB
+2022-12-06T05:13:15.640962606 0.013670s notice: Listening for intracluster connections on port 29015
+2022-12-06T05:13:15.676953733 0.049661s notice: Listening for client driver connections on port 28015
+2022-12-06T05:13:15.676981808 0.049689s notice: Listening for administrative HTTP connections on port 8080
+2022-12-06T05:13:15.676982109 0.049690s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-06T05:13:15.676987375 0.049695s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-06T05:13:15.677107283 0.049815s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-06T05:13:15.677108550 0.049816s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-06T05:13:15.677110123 0.049818s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-06T05:13:16.840257972 1.212966s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 18.
+2022-12-06T05:13:16.847197430 1.219905s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 18. Latest log index is 50.
+2022-12-06T05:13:17.381524954 1.754233s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 18.
+2022-12-06T05:13:17.388613963 1.761322s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 18. Latest log index is 50.
+2022-12-06T05:13:17.661907293 2.034615s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 24.
+2022-12-06T05:13:17.662865277 2.035573s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 24. Latest log index is 68.
+2022-12-06T05:14:43.297236934 87.669945s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-06T05:14:43.297332205 87.670040s notice: Shutting down client connections...
+2022-12-06T05:14:43.297366615 87.670074s notice: All client connections closed.
+2022-12-06T05:14:43.297367971 87.670075s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-06T05:14:43.300721880 87.673430s notice: Storage engine shut down.
+2022-12-12T15:48:03.004838330 0.008361s notice: Recursively removing directory /home/dna-dev/Project/pantry-management-system-be/rethinkdb_data/tmp
+2022-12-12T15:48:03.006561117 0.010084s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-12T15:48:03.007487956 0.011011s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-12T15:48:03.007523251 0.011045s notice: Loading data from directory /home/dna-dev/Project/pantry-management-system-be/rethinkdb_data
+2022-12-12T15:48:03.011973032 0.015495s info: Automatically using cache size of 3811 MB
+2022-12-12T15:48:03.012698796 0.016221s notice: Listening for intracluster connections on port 29015
+2022-12-12T15:48:03.047839001 0.051362s notice: Listening for client driver connections on port 28015
+2022-12-12T15:48:03.047887211 0.051410s notice: Listening for administrative HTTP connections on port 8080
+2022-12-12T15:48:03.047887904 0.051410s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-12T15:48:03.047891218 0.051413s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-12T15:48:03.048049889 0.051572s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-12T15:48:03.048051961 0.051574s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-12T15:48:03.048053450 0.051576s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-12T15:48:04.221578858 1.225101s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 19.
+2022-12-12T15:48:04.222705607 1.226228s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 19. Latest log index is 53.
+2022-12-12T15:48:04.870205645 1.873729s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 25.
+2022-12-12T15:48:04.882372293 1.885895s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 25. Latest log index is 71.
+2022-12-12T15:48:04.904816562 1.908339s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 19.
+2022-12-12T15:48:04.906549259 1.910072s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 19. Latest log index is 53.
+2022-12-12T21:52:13.727513185 15628.632604s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2022-12-12T21:52:13.727755093 15628.632845s notice: Shutting down client connections...
+2022-12-12T21:52:13.731435757 15628.636526s notice: All client connections closed.
+2022-12-12T21:52:13.731440324 15628.636530s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2022-12-12T21:52:13.744468751 15628.649558s notice: Storage engine shut down.
+2022-12-12T21:52:15.274383528 0.019547s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-12T21:52:15.275273897 0.020437s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-12T21:52:15.275301654 0.020465s notice: Loading data from directory /home/dna-dev/Project/pantry-management-system-be/rethinkdb_data
+2022-12-12T21:52:15.280780809 0.025944s info: Automatically using cache size of 3491 MB
+2022-12-12T21:52:15.281386863 0.026550s notice: Listening for intracluster connections on port 29015
+2022-12-12T21:52:15.317355312 0.062519s notice: Listening for client driver connections on port 28015
+2022-12-12T21:52:15.317387710 0.062551s notice: Listening for administrative HTTP connections on port 8080
+2022-12-12T21:52:15.317391093 0.062554s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-12T21:52:15.317394989 0.062558s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-12T21:52:15.317403306 0.062567s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-12T21:52:15.317404483 0.062568s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-12T21:52:15.317405950 0.062569s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-12T21:52:16.471510708 1.216675s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 20.
+2022-12-12T21:52:16.483550055 1.228714s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 20. Latest log index is 56.
+2022-12-12T21:52:16.542262334 1.287426s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 26.
+2022-12-12T21:52:16.544113719 1.289278s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 26. Latest log index is 74.
+2022-12-12T21:52:17.236402091 1.981566s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 20.
+2022-12-12T21:52:17.247941007 1.993105s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 20. Latest log index is 56.
+2022-12-14T07:13:28.981266345 0.007323s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-14T07:13:28.982194966 0.008252s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-14T07:13:28.982215862 0.008272s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2022-12-14T07:13:28.986626080 0.012683s info: Automatically using cache size of 3136 MB
+2022-12-14T07:13:28.986914945 0.012971s notice: Listening for intracluster connections on port 29015
+2022-12-14T07:13:29.023072734 0.049129s notice: Listening for client driver connections on port 28015
+2022-12-14T07:13:29.023134411 0.049191s notice: Listening for administrative HTTP connections on port 8080
+2022-12-14T07:13:29.023136802 0.049193s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-14T07:13:29.023166723 0.049223s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-14T07:13:29.023168903 0.049225s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-14T07:13:29.023172311 0.049229s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-14T07:13:29.023174863 0.049232s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-14T07:13:30.019543271 1.045600s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Starting a new Raft election for term 21.
+2022-12-14T07:13:30.029957186 1.056014s info: Table 24084d41-789e-4195-9453-4e67119de3cd: This server is Raft leader for term 21. Latest log index is 59.
+2022-12-14T07:13:30.487490141 1.513547s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Starting a new Raft election for term 21.
+2022-12-14T07:13:30.488143267 1.514200s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: This server is Raft leader for term 21. Latest log index is 59.
+2022-12-14T07:13:30.730985142 1.757042s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Starting a new Raft election for term 27.
+2022-12-14T07:13:30.731669998 1.757727s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: This server is Raft leader for term 27. Latest log index is 77.
+2022-12-14T07:59:26.503882136 2757.529939s notice: Removing file /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data/24084d41-789e-4195-9453-4e67119de3cd
+2022-12-14T07:59:26.503885832 2757.529942s info: Table 24084d41-789e-4195-9453-4e67119de3cd: Deleted the table.
+2022-12-14T07:59:35.251540483 2766.277598s notice: Removing file /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data/b495bbbb-ab58-4830-a99c-b0ccec07e9da
+2022-12-14T07:59:35.251546418 2766.277603s info: Table b495bbbb-ab58-4830-a99c-b0ccec07e9da: Deleted the table.
+2022-12-14T07:59:50.842859667 2781.868916s notice: Removing file /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data/c21f8ae1-6512-47e6-af92-f42a90d06012
+2022-12-14T07:59:50.842862120 2781.868919s info: Table c21f8ae1-6512-47e6-af92-f42a90d06012: Deleted the table.
+2022-12-14T08:01:45.443916155 2896.469973s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 1.
+2022-12-14T08:01:45.444020816 2896.470077s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Added replica on this server.
+2022-12-14T08:01:45.444876350 2896.470933s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-14T08:02:22.681744081 2933.707801s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 1.
+2022-12-14T08:02:22.681848489 2933.707905s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Added replica on this server.
+2022-12-14T08:02:22.682726232 2933.708783s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-14T08:02:54.013192115 2965.039249s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 1.
+2022-12-14T08:02:54.013304879 2965.039361s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Added replica on this server.
+2022-12-14T08:02:54.014228640 2965.040285s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-14T08:03:14.258575137 2985.284632s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 1.
+2022-12-14T08:03:14.258629469 2985.284686s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Added replica on this server.
+2022-12-14T08:03:14.259476504 2985.285533s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-14T12:04:03.645402132 17434.671459s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Configuration is changing.
+2022-12-14T12:05:16.565088582 17507.591145s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-14T12:05:44.402557055 17535.428614s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-14T13:49:03.927686208 23734.953743s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-14T13:49:19.565247678 23750.591305s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-15T06:57:39.443352419 38814.993262s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Configuration is changing.
+2022-12-15T06:57:58.579103410 38834.129012s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-15T06:58:12.530986627 38848.080896s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Configuration is changing.
+2022-12-15T06:59:26.666713761 38922.216623s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Configuration is changing.
+2022-12-19T08:51:39.169468147 120694.090941s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 1.
+2022-12-19T08:51:39.170014349 120694.091486s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Added replica on this server.
+2022-12-19T08:51:39.170711728 120694.092184s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-19T08:51:52.526575543 120707.448047s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 1.
+2022-12-19T08:51:52.526687112 120707.448159s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Added replica on this server.
+2022-12-19T08:51:52.527684464 120707.449156s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-19T10:29:10.562856814 126545.484329s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Configuration is changing.
+2022-12-19T10:29:23.454059689 126558.375532s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Configuration is changing.
+2022-12-19T10:29:28.203823440 126563.125295s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Configuration is changing.
+2022-12-20T10:52:02.746823030 0.012710s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-20T10:52:02.747803026 0.013690s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-20T10:52:02.747827373 0.013714s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2022-12-20T10:52:02.754197733 0.020085s info: Automatically using cache size of 1983 MB
+2022-12-20T10:52:02.755066356 0.020953s notice: Listening for intracluster connections on port 29015
+2022-12-20T10:52:02.786449067 0.052336s notice: Listening for client driver connections on port 28015
+2022-12-20T10:52:02.786472878 0.052360s notice: Listening for administrative HTTP connections on port 8080
+2022-12-20T10:52:02.786473142 0.052360s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-20T10:52:02.786473309 0.052360s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-20T10:52:02.786490991 0.052378s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-20T10:52:02.786491342 0.052378s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-20T10:52:02.786493330 0.052380s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-20T10:52:03.837631561 1.103518s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 2.
+2022-12-20T10:52:03.838462759 1.104350s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 2. Latest log index is 2.
+2022-12-20T10:52:03.843926420 1.109813s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 2.
+2022-12-20T10:52:03.844575380 1.110462s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 2. Latest log index is 2.
+2022-12-20T10:52:04.052733924 1.318621s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 2.
+2022-12-20T10:52:04.066460270 1.332347s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 2. Latest log index is 4.
+2022-12-20T10:52:04.277856464 1.543743s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 2.
+2022-12-20T10:52:04.278547887 1.544435s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 2. Latest log index is 2.
+2022-12-20T10:52:04.509533211 1.775420s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 2.
+2022-12-20T10:52:04.510190880 1.776078s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 2. Latest log index is 6.
+2022-12-20T10:52:04.731448077 1.997335s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 2.
+2022-12-20T10:52:04.732128598 1.998015s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 2. Latest log index is 4.
+2022-12-21T13:40:02.930231156 43944.442095s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Starting a new Raft election for term 1.
+2022-12-21T13:40:02.930683419 43944.442547s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Added replica on this server.
+2022-12-21T13:40:02.931805776 43944.443669s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-21T13:40:20.015754278 43961.527618s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Starting a new Raft election for term 1.
+2022-12-21T13:40:20.015880569 43961.527744s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Added replica on this server.
+2022-12-21T13:40:20.016796783 43961.528660s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: This server is Raft leader for term 1. Latest log index is 0.
+2022-12-26T13:44:03.553361694 139620.217115s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2022-12-28T05:22:18.673759578 0.019796s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2022-12-28T05:22:18.675746249 0.021786s notice: Running on Linux 5.15.0-53-generic x86_64
+2022-12-28T05:22:18.675960746 0.021997s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2022-12-28T05:22:18.690805531 0.036842s info: Automatically using cache size of 4224 MB
+2022-12-28T05:22:18.691422313 0.037458s notice: Listening for intracluster connections on port 29015
+2022-12-28T05:22:18.760534576 0.106571s notice: Listening for client driver connections on port 28015
+2022-12-28T05:22:18.760623337 0.106659s notice: Listening for administrative HTTP connections on port 8080
+2022-12-28T05:22:18.760625861 0.106662s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2022-12-28T05:22:18.760629129 0.106665s notice: Listening on driver addresses: 127.0.0.1, ::1
+2022-12-28T05:22:18.760648081 0.106684s notice: Listening on http addresses: 127.0.0.1, ::1
+2022-12-28T05:22:18.760651470 0.106687s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2022-12-28T05:22:18.760654882 0.106691s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2022-12-28T05:22:19.741115384 1.087151s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 3.
+2022-12-28T05:22:19.742166642 1.088203s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 3. Latest log index is 7.
+2022-12-28T05:22:19.796700295 1.142737s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 3.
+2022-12-28T05:22:19.797555992 1.143592s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 3. Latest log index is 9.
+2022-12-28T05:22:19.807027274 1.153063s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Starting a new Raft election for term 2.
+2022-12-28T05:22:19.807881029 1.153917s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: This server is Raft leader for term 2. Latest log index is 2.
+2022-12-28T05:22:19.905124424 1.251160s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 3.
+2022-12-28T05:22:19.906195042 1.252231s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 3. Latest log index is 7.
+2022-12-28T05:22:20.241273946 1.587310s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 3.
+2022-12-28T05:22:20.242138649 1.588175s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 3. Latest log index is 5.
+2022-12-28T05:22:20.615629782 1.961666s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 3.
+2022-12-28T05:22:20.626119563 1.972156s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 3. Latest log index is 5.
+2022-12-28T05:22:20.627263623 1.973300s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 3.
+2022-12-28T05:22:20.628198722 1.974235s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 3. Latest log index is 5.
+2022-12-28T05:22:20.721424362 2.067460s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Starting a new Raft election for term 2.
+2022-12-28T05:22:20.722297056 2.068333s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: This server is Raft leader for term 2. Latest log index is 2.
+2022-12-28T07:38:40.932237722 8182.278274s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2022-12-28T11:41:40.926488015 22762.272524s warn: RethinkDB has been accessing a lot of swap memory in the past ten minutes. This may impact performace.
+2022-12-28T19:57:34.879188652 43468.348624s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Configuration is changing.

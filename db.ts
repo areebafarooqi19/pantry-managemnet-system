@@ -2,7 +2,8 @@
 import rethinkdbdash from 'rethinkdbdash';
 
 export const db = rethinkdbdash({
-  db: 'test',
+  pool: true,
+  db: 'pantry-management-system',
   host: 'localhost',
   port: '28015'
 });
