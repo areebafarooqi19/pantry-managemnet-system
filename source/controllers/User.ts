@@ -17,6 +17,7 @@ const NAMESPACE = 'User Controller';
 const createUser = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { firstName, lastName, email, phoneNumber, password, role, department } = req.body;
+
     let profileImageUrl: string = '';
 
     if (!req.file?.filename) {
@@ -71,7 +72,10 @@ const createUser = async (req: Request, res: Response, next: NextFunction) => {
       });
     }
   } catch (err) {
-    console.log(err);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -125,71 +129,89 @@ const login = async (req: Request, res: Response, next: NextFunction) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
 const getAvailableUsers = async (req: Request, res: Response, next: NextFunction) => {
-  const { userId, startTime, endTime } = req.query;
-  let allUser = await UserModel.fetchAllUser();
-  allUser = allUser.filter((item: any) => {
-    return item.id !== 'b3986041-9626-4f67-9c76-d10de36b63d1' && item.id !== userId;
-  });
-
-  const getTimeSlot = await TimeSlotModel.getBookingsByTime(new Date(startTime as string), new Date(endTime as string));
-  const capacity = await KitchenModel.getKitchenCapacity();
-  if (getTimeSlot.length <= 0) {
-    allUser = allUser.map((user: User) => ({ id: user.id, name: user.firstName + ' ' + user.lastName }));
-    return res.status(200).json({
-      status: 200,
-      users: allUser,
-      seatsAvailable: capacity.totalCapacity,
-      message: 'Success'
+  try {
+    const { userId, startTime, endTime } = req.query;
+    let allUser = await UserModel.fetchAllUser();
+    allUser = allUser.filter((item: any) => {
+      return item.id !== 'b3986041-9626-4f67-9c76-d10de36b63d1' && item.id !== userId;
     });
-  }
-  const a = await UserBookingModel.getAvailableUserIds(getTimeSlot[0].bookingIds);
 
-  allUser = getDifference(allUser, a);
+    const getTimeSlot = await TimeSlotModel.getBookingsByTime(new Date(startTime as string), new Date(endTime as string));
+    const capacity = await KitchenModel.getKitchenCapacity();
+    if (getTimeSlot.length <= 0) {
+      allUser = allUser.map((user: User) => ({ id: user.id, name: user.firstName + ' ' + user.lastName }));
+      return res.status(200).json({
+        status: 200,
+        users: allUser,
+        seatsAvailable: capacity.totalCapacity,
+        message: 'Success'
+      });
+    }
+    const a = await UserBookingModel.getAvailableUserIds(getTimeSlot[0].bookingIds);
 
-  let users = allUser.map((item: any) => {
-    return {
-      id: item.id,
-      name: `${item.firstName} ${item.lastName}`
-    };
-  });
+    allUser = getDifference(allUser, a);
 
-  if (allUser) {
-    return res.status(200).json({
-      status: 200,
-      users: users,
-      seatsAvailable: getTimeSlot[0].availibility,
-      message: 'Success'
+    let users = allUser.map((item: any) => {
+      return {
+        id: item.id,
+        name: `${item.firstName} ${item.lastName}`
+      };
     });
-  } else {
-    return res.status(404).json({
-      status: 404,
-      message: 'Cannot get resource'
+
+    if (allUser) {
+      return res.status(200).json({
+        status: 200,
+        users: users,
+        seatsAvailable: getTimeSlot[0].availibility,
+        message: 'Success'
+      });
+    } else {
+      return res.status(404).json({
+        status: 404,
+        message: 'Cannot get resource'
+      });
+    }
+  } catch (err) {
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
     });
   }
 };
 
 const setPermission = async (req: Request, res: Response, next: NextFunction) => {
-  const { userIds } = req.body;
-  const users = await UserModel.getUserPermission(userIds);
+  try {
+    const { userIds } = req.body;
 
-  const updatedPermission = await users.map(async (users: any) => {
-    return await UserModel.UpdateUserPermission(users.id, !users.permission);
-  });
+    const users = await UserModel.getUserPermission(userIds);
 
-  if (updatedPermission.length) {
-    return res.status(200).json({
-      status: 200,
-      message: 'Permission updated successfully'
+    const updatedPermission = await users.map(async (users: any) => {
+      return await UserModel.UpdateUserPermission(users.id, !users.permission);
     });
-  } else {
-    return res.status(404).json({
-      status: 404,
-      message: 'Permission updation failed'
+
+    if (updatedPermission.length) {
+      return res.status(200).json({
+        status: 200,
+        message: 'Permission updated successfully'
+      });
+    } else {
+      return res.status(404).json({
+        status: 404,
+        message: 'Permission updation failed'
+      });
+    }
+  } catch (err) {
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
     });
   }
 };
@@ -230,7 +252,10 @@ const getAllUsers = async (req: Request, res: Response, next: NextFunction) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -253,7 +278,10 @@ const getUserById = async (req: Request, res: Response, next: NextFunction) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -261,6 +289,7 @@ const updateUser = async (req: Request, res: Response) => {
   try {
     logging.info(NAMESPACE, `Update route called`);
     const { firstName, lastName, email, phoneNumber, role, department } = req.body;
+
     let profileImageUrl: any = null;
 
     if (req.file?.filename) {
@@ -320,7 +349,10 @@ const updateUser = async (req: Request, res: Response) => {
       }
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -352,7 +384,10 @@ const deleteUser = async (req: Request, res: Response, next: NextFunction) => {
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 

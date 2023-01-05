@@ -1197,3 +1197,97 @@
 2023-01-05T03:43:34.356405034 7454.012607s notice: All client connections closed.
 2023-01-05T03:43:34.356414028 7454.012616s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
 2023-01-05T03:43:34.373407516 7454.029610s notice: Storage engine shut down.
+2023-01-05T05:14:43.127699100 0.013748s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2023-01-05T05:14:43.128788492 0.014838s notice: Running on Linux 5.15.0-53-generic x86_64
+2023-01-05T05:14:43.128825362 0.014874s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2023-01-05T05:14:43.133561986 0.019611s info: Automatically using cache size of 3294 MB
+2023-01-05T05:14:43.134385275 0.020434s notice: Listening for intracluster connections on port 29015
+2023-01-05T05:14:43.197811208 0.083860s notice: Listening for client driver connections on port 28015
+2023-01-05T05:14:43.197857597 0.083906s notice: Listening for administrative HTTP connections on port 8080
+2023-01-05T05:14:43.197857899 0.083906s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2023-01-05T05:14:43.197859529 0.083908s notice: Listening on driver addresses: 127.0.0.1, ::1
+2023-01-05T05:14:43.197860771 0.083909s notice: Listening on http addresses: 127.0.0.1, ::1
+2023-01-05T05:14:43.197861663 0.083910s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2023-01-05T05:14:43.197862753 0.083911s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2023-01-05T05:14:44.331405157 1.217454s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 6.
+2023-01-05T05:14:44.332466379 1.218515s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 6. Latest log index is 14.
+2023-01-05T05:14:44.501986564 1.388035s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 6.
+2023-01-05T05:14:44.512576793 1.398625s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 6. Latest log index is 16.
+2023-01-05T05:14:44.823284142 1.709333s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Starting a new Raft election for term 5.
+2023-01-05T05:14:44.824127620 1.710176s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: This server is Raft leader for term 5. Latest log index is 11.
+2023-01-05T05:14:44.868840068 1.754889s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Starting a new Raft election for term 5.
+2023-01-05T05:14:44.868859424 1.754908s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 6.
+2023-01-05T05:14:44.869531284 1.755580s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: This server is Raft leader for term 5. Latest log index is 11.
+2023-01-05T05:14:44.870194780 1.756243s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 6. Latest log index is 15.
+2023-01-05T05:14:44.920847876 1.806897s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 6.
+2023-01-05T05:14:44.921529885 1.807578s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 6. Latest log index is 18.
+2023-01-05T05:14:44.954590316 1.840639s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 6.
+2023-01-05T05:14:44.955309308 1.841358s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 6. Latest log index is 14.
+2023-01-05T05:14:45.112378093 1.998427s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 6.
+2023-01-05T05:14:45.113488944 1.999537s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 6. Latest log index is 16.
+2023-01-05T08:12:51.420836099 10688.306885s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2023-01-05T08:12:51.420899536 10688.306948s notice: Shutting down client connections...
+2023-01-05T08:12:51.421841240 10688.307890s notice: All client connections closed.
+2023-01-05T08:12:51.421843818 10688.307892s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2023-01-05T08:12:51.429175389 10688.315224s notice: Storage engine shut down.
+2023-01-05T08:12:52.909526114 0.017673s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2023-01-05T08:12:52.910568498 0.018716s notice: Running on Linux 5.15.0-53-generic x86_64
+2023-01-05T08:12:52.910596304 0.018743s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2023-01-05T08:12:52.915486060 0.023633s info: Automatically using cache size of 3038 MB
+2023-01-05T08:12:52.916090929 0.024237s notice: Listening for intracluster connections on port 29015
+2023-01-05T08:12:52.980033547 0.088180s notice: Listening for client driver connections on port 28015
+2023-01-05T08:12:52.980061523 0.088208s notice: Listening for administrative HTTP connections on port 8080
+2023-01-05T08:12:52.980064393 0.088211s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2023-01-05T08:12:52.980065759 0.088212s notice: Listening on driver addresses: 127.0.0.1, ::1
+2023-01-05T08:12:52.980085857 0.088232s notice: Listening on http addresses: 127.0.0.1, ::1
+2023-01-05T08:12:52.980087256 0.088234s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2023-01-05T08:12:52.980088731 0.088235s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2023-01-05T08:12:54.052990831 1.161137s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Starting a new Raft election for term 6.
+2023-01-05T08:12:54.063841072 1.171988s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: This server is Raft leader for term 6. Latest log index is 14.
+2023-01-05T08:12:54.093880661 1.202028s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.094860651 1.203007s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 7. Latest log index is 17.
+2023-01-05T08:12:54.116566738 1.224713s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.117480368 1.225627s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 7. Latest log index is 18.
+2023-01-05T08:12:54.149723443 1.257870s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.150797315 1.258944s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 7. Latest log index is 17.
+2023-01-05T08:12:54.420719451 1.528866s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.421778370 1.529925s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 7. Latest log index is 19.
+2023-01-05T08:12:54.562254721 1.670401s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Starting a new Raft election for term 6.
+2023-01-05T08:12:54.563166058 1.671313s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: This server is Raft leader for term 6. Latest log index is 14.
+2023-01-05T08:12:54.718219824 1.826366s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.719330803 1.827477s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 7. Latest log index is 21.
+2023-01-05T08:12:54.837405506 1.945552s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 7.
+2023-01-05T08:12:54.838404467 1.946551s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 7. Latest log index is 19.
+2023-01-05T08:59:04.288685937 2771.396833s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2023-01-05T08:59:04.288770673 2771.396917s notice: Shutting down client connections...
+2023-01-05T08:59:04.289747200 2771.397894s notice: All client connections closed.
+2023-01-05T08:59:04.289749730 2771.397896s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2023-01-05T08:59:04.298047029 2771.406194s notice: Storage engine shut down.
+2023-01-05T08:59:24.502653787 0.017401s notice: Running rethinkdb 2.4.2~0focal (GCC 9.4.0)...
+2023-01-05T08:59:24.503752885 0.018501s notice: Running on Linux 5.15.0-53-generic x86_64
+2023-01-05T08:59:24.503794907 0.018542s notice: Loading data from directory /home/dna-dev/Project 2.0/pantry-management-system-be/rethinkdb_data
+2023-01-05T08:59:24.509015723 0.023763s info: Automatically using cache size of 3266 MB
+2023-01-05T08:59:24.509598890 0.024346s notice: Listening for intracluster connections on port 29015
+2023-01-05T08:59:24.568179591 0.082927s notice: Listening for client driver connections on port 28015
+2023-01-05T08:59:24.568238484 0.082986s notice: Listening for administrative HTTP connections on port 8080
+2023-01-05T08:59:24.568240352 0.082988s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2023-01-05T08:59:24.568280264 0.083028s notice: Listening on driver addresses: 127.0.0.1, ::1
+2023-01-05T08:59:24.568283842 0.083031s notice: Listening on http addresses: 127.0.0.1, ::1
+2023-01-05T08:59:24.568286122 0.083034s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2023-01-05T08:59:24.568332832 0.083080s notice: Server ready, "dnadev_Inspiron_15_5510_jmh" 9f66ab62-93f9-4796-a1f5-bbe782f5d0a9
+2023-01-05T08:59:25.589856480 1.104604s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: Starting a new Raft election for term 8.
+2023-01-05T08:59:25.600696553 1.115444s info: Table 1055fca9-33ed-4655-bc65-d9a8ecce103c: This server is Raft leader for term 8. Latest log index is 24.
+2023-01-05T08:59:25.619786383 1.134534s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: Starting a new Raft election for term 8.
+2023-01-05T08:59:25.620804342 1.135552s info: Table 2256b9a1-4fbd-417b-84e4-404d6f86321a: This server is Raft leader for term 8. Latest log index is 22.
+2023-01-05T08:59:25.680090071 1.194838s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: Starting a new Raft election for term 7.
+2023-01-05T08:59:25.681110355 1.195858s info: Table 40f084c6-5dfe-44d7-9055-ec5d79e8e721: This server is Raft leader for term 7. Latest log index is 17.
+2023-01-05T08:59:25.866917284 1.381665s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: Starting a new Raft election for term 7.
+2023-01-05T08:59:25.868025256 1.382773s info: Table 578152eb-926f-41d8-9f4d-c0c70f75fae7: This server is Raft leader for term 7. Latest log index is 17.
+2023-01-05T08:59:25.901953197 1.416701s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: Starting a new Raft election for term 8.
+2023-01-05T08:59:25.902975810 1.417723s info: Table 9719dd8b-5b20-4546-bbff-25265a9e26c0: This server is Raft leader for term 8. Latest log index is 21.
+2023-01-05T08:59:26.197844055 1.712592s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: Starting a new Raft election for term 8.
+2023-01-05T08:59:26.198877507 1.713625s info: Table 54a6b760-f5df-4ec0-9d9d-9b7b30223fb7: This server is Raft leader for term 8. Latest log index is 22.
+2023-01-05T08:59:26.275177360 1.789925s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: Starting a new Raft election for term 8.
+2023-01-05T08:59:26.276148372 1.790896s info: Table 2240cfd1-3338-4473-9dd6-b01384f56219: This server is Raft leader for term 8. Latest log index is 20.
+2023-01-05T08:59:26.441745476 1.956493s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: Starting a new Raft election for term 8.
+2023-01-05T08:59:26.443058746 1.957806s info: Table b0494202-d2af-4365-94ee-bf5d56c1b540: This server is Raft leader for term 8. Latest log index is 20.

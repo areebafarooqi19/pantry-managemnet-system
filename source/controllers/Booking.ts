@@ -10,8 +10,10 @@ const NAMESPACE = 'User Controller';
 const createBooking = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const { userId, startTime, endTime, description, recurrunceRule, attendees, subject } = req.body;
+
     let bookingCreated: any = false;
-    const getTimeSlot = await TimeSlotModel.getBookingsByTime(startTime, endTime);
+    const getTimeSlot = await TimeSlotModel.getBookingsByTime(new Date(startTime.slice(0, -34)), new Date(endTime.slice(0, -34)));
+
     if (getTimeSlot.availibility <= 0) {
       return res.status(400).json({
         status: 400,
@@ -84,7 +86,10 @@ const createBooking = async (req: Request, res: Response, next: NextFunction) =>
       }
     }
   } catch (error) {
-    console.log('Error', error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -128,7 +133,10 @@ const getAllBookings = async (req: Request, res: Response, next: NextFunction) =
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -162,14 +170,18 @@ const getBookingbyId = async (req: Request, res: Response, next: NextFunction) =
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
 const updateBooking = async (req: Request, res: Response, next: NextFunction) => {
   try {
     const id = req.params.id;
-    const { startTime, endTime, description, recurrunceRule, subject, attendees, userId } = req.body;
+    const { startTime, endTime, description, subject, attendees, userId } = req.body;
+
     const getTimeSlot = await TimeSlotModel.getBookingsByTime(startTime, endTime);
     if (getTimeSlot.availibility <= 0) {
       return res.status(400).json({
@@ -252,7 +264,10 @@ const updateBooking = async (req: Request, res: Response, next: NextFunction) =>
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
@@ -306,7 +321,10 @@ const deleteBooking = async (req: Request, res: Response, next: NextFunction) =>
       });
     }
   } catch (error) {
-    console.log(error);
+    return res.status(500).json({
+      status: 500,
+      message: 'Something wents wrong'
+    });
   }
 };
 
